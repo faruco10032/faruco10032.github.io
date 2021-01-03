@@ -9,7 +9,7 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
-.page__main {
+.page_main {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
