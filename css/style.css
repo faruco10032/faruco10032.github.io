@@ -1,10 +1,10 @@
   
 body {
-    background-color: #ffffff;
+    background-color: #000000;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 14px;
-    color: #555;
+    color: rgb(226, 226, 226);
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
@@ -21,7 +21,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    color: #333;
+    color: rgb(226, 226, 226);
 }
 
 h1 {
