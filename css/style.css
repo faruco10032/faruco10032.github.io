@@ -48,6 +48,15 @@ h4 {
     margin-bottom: 15px;
 }
 
+/* リスト */
+ul, ol {
+    padding: 0.5em 0.5em 0.5em 2em;/*ボックス内の余白*/
+}
+  
+ul li, ol li {
+    line-height: 1.5; /*文の行高*/
+    padding: 0.5em 0; /*前後の文との余白*/
+}
 
 /* Paragraph & Typographic */
 
