@@ -32,9 +32,8 @@ twitter_username: faruco10032
 github_username: faruco10032
 
 # Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+remote_theme: pages-themes/tactile@v0.2.0
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
