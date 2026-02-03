@@ -1,9 +1,10 @@
 ﻿---
 import Base from '../../../layouts/Base.astro';
 import researchmap from '../../../data/researchmap.json';
-import { getEntryBySlug } from 'astro:content';
+import { getCollection } from 'astro:content';
 
-const page = await getEntryBySlug('pages_ja', 'activities');
+const pages = await getCollection('pages', ({ data }) => data.lang === 'ja');
+const page = pages.find((p) => p.slug === 'activities');
 const nav = [
   { label: '研究', href: '/ja/research/' },
   { label: '業績', href: '/ja/publications/' },
@@ -16,8 +17,8 @@ const nav = [
 ---
 <Base title="助成・活動 | 亀岡研究室" lang="ja" nav={nav} altLang={{ href: '/en/activities/', label: 'EN' }}>
   <section class="section container">
-    <h2>{page.data.title}</h2>
-    {page.data.lead && <p>{page.data.lead}</p>}
+    <h2>{page?.data.title}</h2>
+    {page?.data.lead && <p>{page.data.lead}</p>}
   </section>
 
   <section class="section container">

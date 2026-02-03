@@ -1,10 +1,15 @@
-﻿---
+---
 import Base from '../../../layouts/Base.astro';
 import { getCollection } from 'astro:content';
 
-const pages = await getCollection('pages', ({ data }) => data.lang === 'ja');
-const page = pages.find((p) => p.slug === 'prospective');
-const { Content } = page ? await page.render() : { Content: null };
+export async function getStaticPaths() {
+  const entries = await getCollection('news', ({ data }) => data.lang === 'ja');
+  return entries.map((entry) => ({ params: { slug: entry.slug }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+
 const nav = [
   { label: '研究', href: '/ja/research/' },
   { label: '業績', href: '/ja/publications/' },
@@ -15,12 +20,13 @@ const nav = [
   { label: '研究室について', href: '/ja/about/' }
 ];
 ---
-<Base title="参加希望の方へ | 亀岡研究室" lang="ja" nav={nav} altLang={{ href: '/en/prospective/', label: 'EN' }}>
+<Base title={`${entry.data.title} | 亀岡研究室`} lang="ja" nav={nav} altLang={{ href: '/en/', label: 'EN' }}>
   <section class="section container">
-    <h2>{page?.data.title}</h2>
-    {page?.data.lead && <p>{page.data.lead}</p>}
+    <div class="badge">{entry.data.date.toISOString().slice(0,10)}</div>
+    <h2>{entry.data.title}</h2>
+    {entry.data.summary && <p>{entry.data.summary}</p>}
     <article class="card" style="margin-top:16px;">
-      {Content && <Content />}
+      <Content />
     </article>
   </section>
 </Base>

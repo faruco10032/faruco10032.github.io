@@ -1,9 +1,10 @@
 ﻿---
 import Base from '../../../layouts/Base.astro';
 import researchmap from '../../../data/researchmap.json';
-import { getEntryBySlug } from 'astro:content';
+import { getCollection } from 'astro:content';
 
-const page = await getEntryBySlug('pages_en', 'activities');
+const pages = await getCollection('pages', ({ data }) => data.lang === 'en');
+const page = pages.find((p) => p.slug === 'activities');
 const nav = [
   { label: 'Research', href: '/en/research/' },
   { label: 'Publications', href: '/en/publications/' },
@@ -16,8 +17,8 @@ const nav = [
 ---
 <Base title="Grants & Activities | Kameoka Lab" lang="en" nav={nav} altLang={{ href: '/ja/activities/', label: 'JA' }}>
   <section class="section container">
-    <h2>{page.data.title}</h2>
-    {page.data.lead && <p>{page.data.lead}</p>}
+    <h2>{page?.data.title}</h2>
+    {page?.data.lead && <p>{page.data.lead}</p>}
   </section>
 
   <section class="section container">

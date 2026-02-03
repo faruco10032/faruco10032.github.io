@@ -1,3 +1,6 @@
+---
+lang: en
+---
 ﻿---
 title: For Prospective Students
 lead: Information about our themes and how to join the lab.

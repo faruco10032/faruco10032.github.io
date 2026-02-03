@@ -1,7 +1,9 @@
 ﻿---
 import '../styles/global.css';
+import theme from '../data/theme.json';
 
 const { title, lang, nav, altLang } = Astro.props;
+const themeVars = `:root{--accent:${theme.accent};--accent-2:${theme.accent2};--bg:${theme.bg};--bg-2:${theme.bg2};--ink:${theme.ink};--muted:${theme.muted};--line:${theme.line};}`;
 ---
 <!doctype html>
 <html lang={lang}>
@@ -9,6 +11,7 @@ const { title, lang, nav, altLang } = Astro.props;
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
+    <style>{themeVars}</style>
   </head>
   <body>
     <header class="nav">

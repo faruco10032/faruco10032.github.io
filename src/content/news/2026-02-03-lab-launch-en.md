@@ -1,3 +1,7 @@
+---
+lang: en
+lang: en
+---
 ﻿---
 title: Lab website is live
 date: 2026-02-03

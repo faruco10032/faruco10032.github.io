@@ -2,7 +2,7 @@
 import Base from '../../../layouts/Base.astro';
 import { getCollection } from 'astro:content';
 
-const members = await getCollection('members_en');
+const members = await getCollection('members', ({ data }) => data.lang === 'en');
 const nav = [
   { label: 'Research', href: '/en/research/' },
   { label: 'Publications', href: '/en/publications/' },
@@ -20,7 +20,7 @@ const nav = [
       {members.map((m) => (
         <article class="card">
           {m.data.photo && <img src={m.data.photo} alt={m.data.name} style="border-radius:12px;" />}
-          <h3>{m.data.name}</h3>
+          <h3><a href={`/en/members/${m.slug}/`}>{m.data.name}</a></h3>
           <div>{m.data.role}</div>
           {m.data.affiliation && <div>{m.data.affiliation}</div>}
           {m.data.email && <div style="margin-top:8px;">{m.data.email}</div>}

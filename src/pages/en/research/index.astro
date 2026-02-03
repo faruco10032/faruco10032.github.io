@@ -1,10 +1,11 @@
 ﻿---
 import Base from '../../../layouts/Base.astro';
 import researchmap from '../../../data/researchmap.json';
-import { getCollection, getEntryBySlug } from 'astro:content';
+import { getCollection } from 'astro:content';
 
-const projects = await getCollection('projects_en');
-const page = await getEntryBySlug('pages_en', 'research');
+const projects = await getCollection('projects', ({ data }) => data.lang === 'en');
+const pages = await getCollection('pages', ({ data }) => data.lang === 'en');
+const page = pages.find((p) => p.slug === 'research');
 const nav = [
   { label: 'Research', href: '/en/research/' },
   { label: 'Publications', href: '/en/publications/' },
@@ -17,8 +18,8 @@ const nav = [
 ---
 <Base title="Research | Kameoka Lab" lang="en" nav={nav} altLang={{ href: '/ja/research/', label: 'JA' }}>
   <section class="section container">
-    <h2>{page.data.title}</h2>
-    {page.data.lead && <p>{page.data.lead}</p>}
+    <h2>{page?.data.title}</h2>
+    {page?.data.lead && <p>{page.data.lead}</p>}
   </section>
 
   <section class="section container">
@@ -26,7 +27,7 @@ const nav = [
     <div class="grid grid-2">
       {projects.map((p) => (
         <article class="card">
-          <h3>{p.data.title}</h3>
+          <h3><a href={`/en/research/${p.slug}/`}>{p.data.title}</a></h3>
           <div>{p.data.summary}</div>
           {p.data.year && <div class="badge">{p.data.year}</div>}
         </article>

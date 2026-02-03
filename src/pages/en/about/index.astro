@@ -1,9 +1,10 @@
 ﻿---
 import Base from '../../../layouts/Base.astro';
-import { getEntryBySlug } from 'astro:content';
+import { getCollection } from 'astro:content';
 
-const page = await getEntryBySlug('pages_en', 'about');
-const { Content } = await page.render();
+const pages = await getCollection('pages', ({ data }) => data.lang === 'en');
+const page = pages.find((p) => p.slug === 'about');
+const { Content } = page ? await page.render() : { Content: null };
 const nav = [
   { label: 'Research', href: '/en/research/' },
   { label: 'Publications', href: '/en/publications/' },
@@ -16,10 +17,10 @@ const nav = [
 ---
 <Base title="About | Kameoka Lab" lang="en" nav={nav} altLang={{ href: '/ja/about/', label: 'JA' }}>
   <section class="section container">
-    <h2>{page.data.title}</h2>
-    {page.data.lead && <p>{page.data.lead}</p>}
+    <h2>{page?.data.title}</h2>
+    {page?.data.lead && <p>{page.data.lead}</p>}
     <article class="card" style="margin-top:16px;">
-      <Content />
+      {Content && <Content />}
     </article>
   </section>
   <section class="section container">

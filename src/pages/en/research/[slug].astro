@@ -1,0 +1,35 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('projects', ({ data }) => data.lang === 'en');
+  return entries.map((entry) => ({ params: { slug: entry.slug }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+
+const nav = [
+  { label: 'Research', href: '/en/research/' },
+  { label: 'Publications', href: '/en/publications/' },
+  { label: 'Members', href: '/en/members/' },
+  { label: 'Grants & Activities', href: '/en/activities/' },
+  { label: 'Teaching', href: '/en/teaching/' },
+  { label: 'Access', href: '/en/access/' },
+  { label: 'About', href: '/en/about/' }
+];
+---
+<Base title={`${entry.data.title} | Kameoka Lab`} lang="en" nav={nav} altLang={{ href: '/ja/research/', label: 'JA' }}>
+  <section class="section container">
+    <h2>{entry.data.title}</h2>
+    {entry.data.summary && <p>{entry.data.summary}</p>}
+    <div style="margin:10px 0;">
+      {entry.data.year && <span class="badge">{entry.data.year}</span>}
+      {entry.data.status && <span class="badge">{entry.data.status}</span>}
+    </div>
+    <article class="card">
+      <Content />
+    </article>
+  </section>
+</Base>

@@ -1,3 +1,6 @@
+---
+lang: en
+---
 ﻿---
 name: Takayuki Kameoka
 role: Assistant Professor

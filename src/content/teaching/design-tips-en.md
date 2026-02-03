@@ -1,4 +1,5 @@
 ---
+lang: en
 title: Haptics Interface Lecture Slides
 course: Advanced Media Design
 year: "2025"

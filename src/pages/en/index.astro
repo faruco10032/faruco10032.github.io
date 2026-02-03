@@ -4,8 +4,10 @@ import site from '../../data/site.json';
 import researchmap from '../../data/researchmap.json';
 import { getCollection } from 'astro:content';
 
-const news = (await getCollection('news_en')).sort((a,b)=> b.data.date.valueOf() - a.data.date.valueOf()).slice(0,3);
-const projects = (await getCollection('projects_en')).slice(0,3);
+const news = (await getCollection('news', ({ data }) => data.lang === 'en'))
+  .sort((a,b)=> b.data.date.valueOf() - a.data.date.valueOf())
+  .slice(0,3);
+const projects = (await getCollection('projects', ({ data }) => data.lang === 'en')).slice(0,3);
 
 const nav = [
   { label: 'Research', href: '/en/research/' },
@@ -41,6 +43,7 @@ const nav = [
         <article class="card">
           <h3>{p.data.title}</h3>
           <div>{p.data.summary}</div>
+          <div style="margin-top:10px;"><a href={`/en/research/${p.slug}/`}>View detail</a></div>
           {p.data.keywords && (
             <div style="margin-top:10px;">
               {p.data.keywords.map((k) => (<span class="badge">{k}</span>))}
@@ -60,7 +63,7 @@ const nav = [
       {news.map((n) => (
         <div class="list-item">
           <div class="badge">{n.data.date.toISOString().slice(0,10)}</div>
-          <strong>{n.data.title}</strong>
+          <strong><a href={`/en/news/${n.slug}/`}>{n.data.title}</a></strong>
           {n.data.summary && <div>{n.data.summary}</div>}
         </div>
       ))}
