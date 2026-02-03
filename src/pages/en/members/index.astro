@@ -1,0 +1,34 @@
+﻿---
+import Base from '../../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const members = await getCollection('members_en');
+const nav = [
+  { label: 'Research', href: '/en/research/' },
+  { label: 'Publications', href: '/en/publications/' },
+  { label: 'Members', href: '/en/members/' },
+  { label: 'Grants & Activities', href: '/en/activities/' },
+  { label: 'Teaching', href: '/en/teaching/' },
+  { label: 'Access', href: '/en/access/' },
+  { label: 'About', href: '/en/about/' }
+];
+---
+<Base title="Members | Kameoka Lab" lang="en" nav={nav} altLang={{ href: '/ja/members/', label: 'JA' }}>
+  <section class="section container">
+    <h2>Members</h2>
+    <div class="grid grid-3">
+      {members.map((m) => (
+        <article class="card">
+          {m.data.photo && <img src={m.data.photo} alt={m.data.name} style="border-radius:12px;" />}
+          <h3>{m.data.name}</h3>
+          <div>{m.data.role}</div>
+          {m.data.affiliation && <div>{m.data.affiliation}</div>}
+          {m.data.email && <div style="margin-top:8px;">{m.data.email}</div>}
+          {m.data.keywords && (
+            <div style="margin-top:10px;">{m.data.keywords.map((k)=> (<span class="badge">{k}</span>))}</div>
+          )}
+        </article>
+      ))}
+    </div>
+  </section>
+</Base>

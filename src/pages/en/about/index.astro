@@ -1,0 +1,31 @@
+﻿---
+import Base from '../../../layouts/Base.astro';
+import { getEntryBySlug } from 'astro:content';
+
+const page = await getEntryBySlug('pages_en', 'about');
+const { Content } = await page.render();
+const nav = [
+  { label: 'Research', href: '/en/research/' },
+  { label: 'Publications', href: '/en/publications/' },
+  { label: 'Members', href: '/en/members/' },
+  { label: 'Grants & Activities', href: '/en/activities/' },
+  { label: 'Teaching', href: '/en/teaching/' },
+  { label: 'Access', href: '/en/access/' },
+  { label: 'About', href: '/en/about/' }
+];
+---
+<Base title="About | Kameoka Lab" lang="en" nav={nav} altLang={{ href: '/ja/about/', label: 'JA' }}>
+  <section class="section container">
+    <h2>{page.data.title}</h2>
+    {page.data.lead && <p>{page.data.lead}</p>}
+    <article class="card" style="margin-top:16px;">
+      <Content />
+    </article>
+  </section>
+  <section class="section container">
+    <div class="card">
+      <h3>For Prospective Students</h3>
+      <p>Please see <a href="/en/prospective/">this page</a> for more details.</p>
+    </div>
+  </section>
+</Base>

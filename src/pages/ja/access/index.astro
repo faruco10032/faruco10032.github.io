@@ -1,0 +1,28 @@
+﻿---
+import Base from '../../../layouts/Base.astro';
+import site from '../../../data/site.json';
+import { getEntryBySlug } from 'astro:content';
+
+const page = await getEntryBySlug('pages_ja', 'access');
+const nav = [
+  { label: '研究', href: '/ja/research/' },
+  { label: '業績', href: '/ja/publications/' },
+  { label: 'メンバー', href: '/ja/members/' },
+  { label: '助成・活動', href: '/ja/activities/' },
+  { label: '講義資料', href: '/ja/teaching/' },
+  { label: 'アクセス', href: '/ja/access/' },
+  { label: '研究室について', href: '/ja/about/' }
+];
+---
+<Base title="アクセス | 亀岡研究室" lang="ja" nav={nav} altLang={{ href: '/en/access/', label: 'EN' }}>
+  <section class="section container">
+    <h2>{page.data.title}</h2>
+    {page.data.lead && <p>{page.data.lead}</p>}
+    <div class="card">
+      <div>{site.affiliation.ja}</div>
+      <div>{site.address.ja}</div>
+      <div>Email: {site.email}</div>
+      <div style="margin-top:10px;"><a href={site.map_url}>Google Maps</a></div>
+    </div>
+  </section>
+</Base>

@@ -1,0 +1,25 @@
+﻿---
+import Base from '../../../layouts/Base.astro';
+import { getEntryBySlug } from 'astro:content';
+
+const page = await getEntryBySlug('pages_en', 'prospective');
+const { Content } = await page.render();
+const nav = [
+  { label: 'Research', href: '/en/research/' },
+  { label: 'Publications', href: '/en/publications/' },
+  { label: 'Members', href: '/en/members/' },
+  { label: 'Grants & Activities', href: '/en/activities/' },
+  { label: 'Teaching', href: '/en/teaching/' },
+  { label: 'Access', href: '/en/access/' },
+  { label: 'About', href: '/en/about/' }
+];
+---
+<Base title="Prospective Students | Kameoka Lab" lang="en" nav={nav} altLang={{ href: '/ja/prospective/', label: 'JA' }}>
+  <section class="section container">
+    <h2>{page.data.title}</h2>
+    {page.data.lead && <p>{page.data.lead}</p>}
+    <article class="card" style="margin-top:16px;">
+      <Content />
+    </article>
+  </section>
+</Base>

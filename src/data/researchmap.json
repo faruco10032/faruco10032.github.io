@@ -1,0 +1,2427 @@
+{
+  "researcher": {
+    "permalink": "tkameoka",
+    "name": {
+      "ja": "亀岡 嵩幸",
+      "en": "takayuki kameoka"
+    },
+    "image": "https://researchmap.jp/tkameoka/avatar.jpg",
+    "contact": "kameoka@design.kyushu-u.ac.jp",
+    "affiliations": [
+      {
+        "affiliation_type": "general_full_time_researcher",
+        "affiliation": {
+          "ja": "九州大学",
+          "en": "Kyushu University"
+        },
+        "section": {
+          "ja": "大学院芸術工学研究院",
+          "en": "Faculty of Design"
+        },
+        "job": {
+          "ja": "助教",
+          "en": "Assistant Professor"
+        },
+        "job_class": "assistant_prof_lv",
+        "display_affiliation": "disclosed",
+        "display_job": "disclosed"
+      }
+    ]
+  },
+  "interests": [
+    {
+      "ja": "触覚",
+      "en": "haptics"
+    },
+    {
+      "ja": "バーチャルリアリティ",
+      "en": "vritual reality"
+    },
+    {
+      "ja": "ヒューマンコンピュータインタラクション",
+      "en": "human computer interaction"
+    }
+  ],
+  "research_projects": [
+    {
+      "title": {
+        "ja": "「触れない」触れ合いの設計：アバタ透過による擬似触覚抑制手法の開発",
+        "en": null
+      },
+      "organization": {
+        "ja": "公益財団法人 中山隼雄科学技術文化財",
+        "en": null
+      },
+      "system": {
+        "ja": "研究助成事業",
+        "en": null
+      },
+      "from": "2026-04",
+      "to": "2027-03",
+      "role": "principal_investigator"
+    },
+    {
+      "title": {
+        "ja": "顔への負圧刺激により指先の接触感覚を提示する頭部搭載型装置の設計論の確立",
+        "en": null
+      },
+      "organization": {
+        "ja": "日本学術振興会",
+        "en": null
+      },
+      "system": {
+        "ja": "科学研究費助成事業",
+        "en": null
+      },
+      "from": "2023-08-31",
+      "to": "2025-03-31",
+      "role": null
+    },
+    {
+      "title": {
+        "ja": "圧力分布計を用いた粘着感の定量化と再現系の開発",
+        "en": null
+      },
+      "organization": {
+        "ja": "日本学術振興会",
+        "en": null
+      },
+      "system": {
+        "ja": "科学研究費助成事業 特別研究員奨励費",
+        "en": null
+      },
+      "from": "2020-04-24",
+      "to": "2023-03-31",
+      "role": null
+    }
+  ],
+  "published_papers": [
+    {
+      "title": {
+        "ja": null,
+        "en": "Virtual Hand Illusion Induced by Suction Pressure Stimulation to the Face"
+      },
+      "authors": {
+        "ja": [],
+        "en": [
+          "Takayuki Kameoka",
+          "Taku Hachisu",
+          "Hiroyuki Kajimoto"
+        ]
+      },
+      "publisher": {
+        "ja": null,
+        "en": "Springer Nature Switzerland"
+      },
+      "venue": {
+        "ja": null,
+        "en": "Lecture Notes in Computer Science"
+      },
+      "date": "2024-11-03",
+      "date_sort": "2024-11-03",
+      "type": "in_book",
+      "pages": {
+        "start": "120",
+        "end": "132"
+      },
+      "identifiers": {
+        "doi": [
+          "10.1007/978-3-031-70058-3_10"
+        ],
+        "issn": [
+          "0302-9743"
+        ],
+        "e_issn": [
+          "1611-3349"
+        ],
+        "isbn": [
+          "9783031700576",
+          "9783031700583"
+        ],
+        "orcid_put_cd": [
+          "170825391"
+        ]
+      },
+      "links": [
+        {
+          "label": "doi",
+          "url": "https://doi.org/10.1007/978-3-031-70058-3_10"
+        },
+        {
+          "label": "url",
+          "url": "https://link.springer.com/content/pdf/10.1007/978-3-031-70058-3_10"
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja": null,
+        "en": "Presentation of Slip Sensation Using Suction Pressure and Electrotactile Stimulation"
+      },
+      "authors": {
+        "ja": [],
+        "en": [
+          "Yan Xue Teo",
+          "Taiga Saito",
+          "Takayuki Kameoka",
+          "Izumi Mizoguchi",
+          "Kajimoto Hiroyuki"
+        ]
+      },
+      "publisher": {
+        "ja": null,
+        "en": "Springer Nature Switzerland"
+      },
+      "venue": {
+        "ja": null,
+        "en": "Lecture Notes in Computer Science"
+      },
+      "date": "2024-11-03",
+      "date_sort": "2024-11-03",
+      "type": "in_book",
+      "pages": {
+        "start": "314",
+        "end": "320"
+      },
+      "identifiers": {
+        "doi": [
+          "10.1007/978-3-031-70058-3_26"
+        ],
+        "issn": [
+          "0302-9743"
+        ],
+        "e_issn": [
+          "1611-3349"
+        ],
+        "isbn": [
+          "9783031700576",
+          "9783031700583"
+        ],
+        "orcid_put_cd": [
+          "170825390"
+        ]
+      },
+      "links": [
+        {
+          "label": "doi",
+          "url": "https://doi.org/10.1007/978-3-031-70058-3_26"
+        },
+        {
+          "label": "url",
+          "url": "https://link.springer.com/content/pdf/10.1007/978-3-031-70058-3_26"
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja": null,
+        "en": "ExtEdge: Haptic Augmentation of Visual Experiences of a Smartphone by Electro-Tactile Sensation Through the Edges"
+      },
+      "authors": {
+        "ja": [],
+        "en": [
+          "Taiki Takami",
+          "Taiga Saito",
+          "Takayuki Kameoka",
+          "Hiroyuki Kajimoto"
+        ]
+      },
+      "publisher": {
+        "ja": null,
+        "en": null
+      },
+      "venue": {
+        "ja": null,
+        "en": "Proceedings - SUI 2023: ACM Symposium on Spatial User Interaction"
+      },
+      "date": "2023-10-13",
+      "date_sort": "2023-10-13",
+      "type": "international_conference_proceedings",
+      "pages": {
+        "start": null,
+        "end": null
+      },
+      "identifiers": {
+        "doi": [
+          "10.1145/3607822.3614543"
+        ],
+        "isbn": [
+          "9798400702815"
+        ],
+        "scopus_id": [
+          "85176134731"
+        ]
+      },
+      "links": [
+        {
+          "label": "doi",
+          "url": "https://doi.org/10.1145/3607822.3614543"
+        },
+        {
+          "label": "scopus",
+          "url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85176134731&origin=inward"
+        },
+        {
+          "label": "scopus_citedby",
+          "url": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85176134731&origin=inward"
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja": null,
+        "en": "LivEdge: Haptic Live Stream Interaction on a Smartphone by Electro-Tactile Sensation Through the Edges"
+      },
+      "authors": {
+        "ja": [],
+        "en": [
+          "Taiki Takami",
+          "Taiga Saito",
+          "Takayuki Kameoka",
+          "Hiroyuki Kajimoto"
+        ]
+      },
+      "publisher": {
+        "ja": null,
+        "en": null
+      },
+      "venue": {
+        "ja": null,
+        "en": "Proceedings - SIGGRAPH 2023 Emerging Technologies"
+      },
+      "date": "2023-07-26",
+      "date_sort": "2023-07-26",
+      "type": "international_conference_proceedings",
+      "pages": {
+        "start": null,
+        "end": null
+      },
+      "identifiers": {
+        "doi": [
+          "10.1145/3588037.3595386"
+        ],
+        "isbn": [
+          "9798400701542"
+        ],
+        "scopus_id": [
+          "85168413335"
+        ]
+      },
+      "links": [
+        {
+          "label": "doi",
+          "url": "https://doi.org/10.1145/3588037.3595386"
+        },
+        {
+          "label": "scopus",
+          "url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85168413335&origin=inward"
+        },
+        {
+          "label": "scopus_citedby",
+          "url": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85168413335&origin=inward"
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja": "ストループ課題に基づいたタッピングによる硬さ知覚における視触覚間の干渉効果の評価",
+        "en": "Evaluation of Visual-Tactile Interference Effect on Perceived Stiffness during Tapping Interactions based on the Stroop Task"
+      },
+      "authors": {
+        "ja": [
+          "石川 遼太郎",
+          "亀岡 嵩幸",
+          "蜂須 拓"
+        ],
+        "en": [
+          "Ishikawa Ryotaro",
+          "Kameoka Takayuki",
+          "Hachisu Taku"
+        ]
+      },
+      "publisher": {
+        "ja": "特定非営利活動法人 日本バーチャルリアリティ学会",
+        "en": "THE VIRTUAL REALITY SOCIETY OF JAPAN"
+      },
+      "venue": {
+        "ja": "日本バーチャルリアリティ学会論文誌",
+        "en": "Transactions of the Virtual Reality Society of Japan"
+      },
+      "date": "2023",
+      "date_sort": "2023-01-01",
+      "type": null,
+      "pages": {
+        "start": "283",
+        "end": "290"
+      },
+      "identifiers": {
+        "doi": [
+          "10.18974/tvrsj.28.4_283"
+        ],
+        "issn": [
+          "1344-011X"
+        ],
+        "e_issn": [
+          "2423-9593"
+        ],
+        "cinii_cr_id": [
+          "1390017124024433280"
+        ]
+      },
+      "links": [
+        {
+          "label": "doi",
+          "url": "https://doi.org/10.18974/tvrsj.28.4_283"
+        },
+        {
+          "label": "cinii_research",
+          "url": "https://cir.nii.ac.jp/crid/1390017124024433280?lang=ja"
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja": null,
+        "en": "Effects of Mirrors on User Behavior in Social Virtual Reality Environments"
+      },
+      "authors": {
+        "ja": [],
+        "en": [
+          "Takayuki Kameoka",
+          "Seitaro Kaneko"
+        ]
+      },
+      "publisher": {
+        "ja": null,
+        "en": null
+      },
+      "venue": {
+        "ja": null,
+        "en": "Proceedings - 2022 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops, VRW 2022"
+      },
+      "date": "2022",
+      "date_sort": "2022-01-01",
+      "type": "international_conference_proceedings",
+      "pages": {
+        "start": "752",
+        "end": "753"
+      },
+      "identifiers": {
+        "doi": [
+          "10.1109/VRW55335.2022.00227"
+        ],
+        "isbn": [
+          "9781665484022"
+        ],
+        "scopus_id": [
+          "85129605470"
+        ]
+      },
+      "links": [
+        {
+          "label": "doi",
+          "url": "https://doi.org/10.1109/VRW55335.2022.00227"
+        },
+        {
+          "label": "scopus",
+          "url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85129605470&origin=inward"
+        },
+        {
+          "label": "scopus_citedby",
+          "url": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85129605470&origin=inward"
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja": null,
+        "en": "Design of Suction-Type Tactile Presentation Mechanism to Be Embedded in HMD"
+      },
+      "authors": {
+        "ja": [],
+        "en": [
+          "Kameoka, Takayuki",
+          "Kajimoto, Hiroyuki"
+        ]
+      },
+      "publisher": {
+        "ja": null,
+        "en": "Frontiers Media SA"
+      },
+      "venue": {
+        "ja": null,
+        "en": "Frontiers in Virtual Reality"
+      },
+      "date": "2022",
+      "date_sort": "2022-01-01",
+      "type": "scientific_journal",
+      "pages": {
+        "start": "894873",
+        "end": "894873"
+      },
+      "identifiers": {
+        "doi": [
+          "10.3389/frvir.2022.894873"
+        ],
+        "e_issn": [
+          "2673-4192"
+        ],
+        "scopus_id": [
+          "85138043759"
+        ],
+        "orcid_put_cd": [
+          "133218049"
+        ]
+      },
+      "links": [
+        {
+          "label": "doi",
+          "url": "https://doi.org/10.3389/frvir.2022.894873"
+        },
+        {
+          "label": "scopus",
+          "url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85138043759&origin=inward"
+        },
+        {
+          "label": "scopus_citedby",
+          "url": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85138043759&origin=inward"
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja": "Thermal sensation presentation to the forehead using electrical stimulation: comparison with other tactile modalities",
+        "en": "Thermal sensation presentation to the forehead using electrical stimulation: Comparison with other tactile modalities"
+      },
+      "authors": {
+        "ja": [
+          "Taiga Saito",
+          "Jianyao Zhang",
+          "Takayuki Kameoka",
+          "Hiroyuki Kajimoto"
+        ],
+        "en": [
+          "Taiga Saito",
+          "Jianyao Zhang",
+          "Takayuki Kameoka",
+          "Hiroyuki Kajimoto"
+        ]
+      },
+      "publisher": {
+        "ja": "IEEE",
+        "en": null
+      },
+      "venue": {
+        "ja": "2021 IEEE World Haptics Conference (WHC)",
+        "en": "2021 IEEE World Haptics Conference, WHC 2021"
+      },
+      "date": "2021-07-06",
+      "date_sort": "2021-07-06",
+      "type": "international_conference_proceedings",
+      "pages": {
+        "start": "888",
+        "end": "893"
+      },
+      "identifiers": {
+        "doi": [
+          "10.1109/whc49131.2021.9517195",
+          "10.1109/access.2022.3231729_references_DOI_DOL4HciBytKgakwGkpKAsWNks9L"
+        ],
+        "isbn": [
+          "9781665418713"
+        ],
+        "scopus_id": [
+          "85115140381"
+        ],
+        "cinii_cr_id": [
+          "1360298760963520000"
+        ]
+      },
+      "links": [
+        {
+          "label": "doi",
+          "url": "https://doi.org/10.1109/whc49131.2021.9517195"
+        },
+        {
+          "label": "doi",
+          "url": "https://doi.org/10.1109/access.2022.3231729_references_DOI_DOL4HciBytKgakwGkpKAsWNks9L"
+        },
+        {
+          "label": "cinii_research",
+          "url": "https://cir.nii.ac.jp/crid/1360298760963520000?lang=ja"
+        },
+        {
+          "label": "url",
+          "url": "http://xplorestaging.ieee.org/ielx7/9517073/9517125/09517195.pdf?arnumber=9517195"
+        },
+        {
+          "label": "scopus",
+          "url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85115140381&origin=inward"
+        },
+        {
+          "label": "scopus_citedby",
+          "url": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85115140381&origin=inward"
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja": "Tactile Transfer of Finger Information through Suction Tactile Sensation in HMDs",
+        "en": "Tactile Transfer of Finger Information through Suction Tactile Sensation in HMDs"
+      },
+      "authors": {
+        "ja": [
+          "Takayuki Kameoka",
+          "Hiroyuki Kajimoto"
+        ],
+        "en": [
+          "Takayuki Kameoka",
+          "Hiroyuki Kajimoto"
+        ]
+      },
+      "publisher": {
+        "ja": "IEEE",
+        "en": null
+      },
+      "venue": {
+        "ja": "2021 IEEE World Haptics Conference (WHC)",
+        "en": "2021 IEEE World Haptics Conference, WHC 2021"
+      },
+      "date": "2021-07-06",
+      "date_sort": "2021-07-06",
+      "type": "international_conference_proceedings",
+      "pages": {
+        "start": "949",
+        "end": "954"
+      },
+      "identifiers": {
+        "doi": [
+          "10.1109/whc49131.2021.9517176",
+          "10.1109/toh.2022.3143663_references_DOI_XEOvaA0Va7vXdaZu8M6GNdeP5nk"
+        ],
+        "isbn": [
+          "9781665418713"
+        ],
+        "scopus_id": [
+          "85115134987"
+        ],
+        "cinii_cr_id": [
+          "1360013168864210944"
+        ]
+      },
+      "links": [
+        {
+          "label": "doi",
+          "url": "https://doi.org/10.1109/whc49131.2021.9517176"
+        },
+        {
+          "label": "doi",
+          "url": "https://doi.org/10.1109/toh.2022.3143663_references_DOI_XEOvaA0Va7vXdaZu8M6GNdeP5nk"
+        },
+        {
+          "label": "cinii_research",
+          "url": "https://cir.nii.ac.jp/crid/1360013168864210944?lang=ja"
+        },
+        {
+          "label": "url",
+          "url": "http://xplorestaging.ieee.org/ielx7/9517073/9517125/09517176.pdf?arnumber=9517176"
+        },
+        {
+          "label": "url",
+          "url": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-20K20627/"
+        },
+        {
+          "label": "scopus",
+          "url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85115134987&origin=inward"
+        },
+        {
+          "label": "scopus_citedby",
+          "url": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85115134987&origin=inward"
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja": "Thermal Sensation on Forehead Using Electrical Stimulation—Thermal Sensation Using Electrical Stimulation",
+        "en": "Thermal Sensation on Forehead Using Electrical Stimulation: Thermal Sensation Using Electrical Stimulation"
+      },
+      "authors": {
+        "ja": [
+          "Taiga Saito",
+          "Jianyao Zhang",
+          "Takayuki Kameoka",
+          "Hiroyuki Kajimoto"
+        ],
+        "en": [
+          "Taiga Saito",
+          "Jianyao Zhang",
+          "Takayuki Kameoka",
+          "Hiroyuki Kajimoto"
+        ]
+      },
+      "publisher": {
+        "ja": "ACM",
+        "en": null
+      },
+      "venue": {
+        "ja": "Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems",
+        "en": "Conference on Human Factors in Computing Systems - Proceedings"
+      },
+      "date": "2021-05-08",
+      "date_sort": "2021-05-08",
+      "type": "international_conference_proceedings",
+      "pages": {
+        "start": null,
+        "end": null
+      },
+      "identifiers": {
+        "doi": [
+          "10.1145/3411763.3451724",
+          "10.1109/access.2022.3231729_references_DOI_Cf4aZgZKbCdFd4DXYpdobmY6zKe"
+        ],
+        "isbn": [
+          "9781450380959"
+        ],
+        "scopus_id": [
+          "85105811361"
+        ],
+        "cinii_cr_id": [
+          "1360580239498470656"
+        ]
+      },
+      "links": [
+        {
+          "label": "doi",
+          "url": "https://doi.org/10.1145/3411763.3451724"
+        },
+        {
+          "label": "doi",
+          "url": "https://doi.org/10.1109/access.2022.3231729_references_DOI_Cf4aZgZKbCdFd4DXYpdobmY6zKe"
+        },
+        {
+          "label": "cinii_research",
+          "url": "https://cir.nii.ac.jp/crid/1360580239498470656?lang=ja"
+        },
+        {
+          "label": "url",
+          "url": "https://dl.acm.org/doi/pdf/10.1145/3411763.3451724"
+        },
+        {
+          "label": "scopus",
+          "url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85105811361&origin=inward"
+        },
+        {
+          "label": "scopus_citedby",
+          "url": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85105811361&origin=inward"
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja": "Avatar Driven VR Society Trends in Japan",
+        "en": "Avatar Driven VR Society Trends in Japan"
+      },
+      "authors": {
+        "ja": [
+          "Liudmila Bredikhina",
+          "Takayuki Kameoka",
+          "Shogo Shimbo",
+          "Akihiko Shirai"
+        ],
+        "en": [
+          "Liudmila Bredikhina",
+          "Takayuki Kameoka",
+          "Shogo Shimbo",
+          "Akihiko Shirai"
+        ]
+      },
+      "publisher": {
+        "ja": "IEEE",
+        "en": null
+      },
+      "venue": {
+        "ja": "2020 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW)",
+        "en": "Proceedings - 2020 IEEE Conference on Virtual Reality and 3D User Interfaces, VRW 2020"
+      },
+      "date": "2020-03",
+      "date_sort": "2020-03-01",
+      "type": "international_conference_proceedings",
+      "pages": {
+        "start": "497",
+        "end": "503"
+      },
+      "identifiers": {
+        "doi": [
+          "10.1109/vrw50115.2020.00103",
+          "10.1109/lsens.2021.3091640_references_DOI_P5rvdSNCrxrhVRt8sbiVG7CuVjq"
+        ],
+        "isbn": [
+          "9781728165325"
+        ],
+        "scopus_id": [
+          "85085387320"
+        ],
+        "cinii_cr_id": [
+          "1360861292465547776"
+        ]
+      },
+      "links": [
+        {
+          "label": "doi",
+          "url": "https://doi.org/10.1109/vrw50115.2020.00103"
+        },
+        {
+          "label": "doi",
+          "url": "https://doi.org/10.1109/lsens.2021.3091640_references_DOI_P5rvdSNCrxrhVRt8sbiVG7CuVjq"
+        },
+        {
+          "label": "cinii_research",
+          "url": "https://cir.nii.ac.jp/crid/1360861292465547776?lang=ja"
+        },
+        {
+          "label": "url",
+          "url": "http://xplorestaging.ieee.org/ielx7/9086528/9090398/09090603.pdf?arnumber=9090603"
+        },
+        {
+          "label": "scopus",
+          "url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85085387320&origin=inward"
+        },
+        {
+          "label": "scopus_citedby",
+          "url": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85085387320&origin=inward"
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja": null,
+        "en": "Assessment of Stickiness with Pressure Distribution Sensor Using Offset Magnetic Force."
+      },
+      "authors": {
+        "ja": [],
+        "en": [
+          "Takayuki Kameoka",
+          "Akifumi Takahashi",
+          "Vibol Yem",
+          "Hiroyuki Kajimoto",
+          "Kohei Matsumori",
+          "Naoki Saito",
+          "Naomi Arakawa"
+        ]
+      },
+      "publisher": {
+        "ja": null,
+        "en": "{MDPI} {AG}"
+      },
+      "venue": {
+        "ja": null,
+        "en": "Micromachines"
+      },
+      "date": "2019-09-27",
+      "date_sort": "2019-09-27",
+      "type": "scientific_journal",
+      "pages": {
+        "start": "652",
+        "end": "652"
+      },
+      "identifiers": {
+        "doi": [
+          "10.3390/mi10100652"
+        ],
+        "orcid_put_cd": [
+          "62432851"
+        ],
+        "e_issn": [
+          "2072-666X"
+        ],
+        "scopus_id": [
+          "85073255555"
+        ],
+        "pm_id": [
+          "31569764"
+        ],
+        "pmc_id": [
+          "PMC6843595"
+        ]
+      },
+      "links": [
+        {
+          "label": "doi",
+          "url": "https://doi.org/10.3390/mi10100652"
+        },
+        {
+          "label": "pubmed",
+          "url": "https://www.ncbi.nlm.nih.gov/pubmed/31569764"
+        },
+        {
+          "label": "pmc",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6843595"
+        },
+        {
+          "label": "scopus",
+          "url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85073255555&origin=inward"
+        },
+        {
+          "label": "scopus_citedby",
+          "url": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85073255555&origin=inward"
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja": null,
+        "en": "Haptopus: Haptic VR experience using suction mechanism embedded in head-mounted display"
+      },
+      "authors": {
+        "ja": [],
+        "en": [
+          "Takayuki Kameoka",
+          "Yuki Kon",
+          "Hiroyuki Kajimoto"
+        ]
+      },
+      "publisher": {
+        "ja": null,
+        "en": null
+      },
+      "venue": {
+        "ja": null,
+        "en": "SIGGRAPH Asia 2018 Virtual and Augmented Reality, SA 2018"
+      },
+      "date": "2018-12-04",
+      "date_sort": "2018-12-04",
+      "type": "international_conference_proceedings",
+      "pages": {
+        "start": "154",
+        "end": "156"
+      },
+      "identifiers": {
+        "doi": [
+          "10.1145/3275495.3275512"
+        ],
+        "isbn": [
+          "9781450360289"
+        ],
+        "scopus_id": [
+          "85061326295"
+        ]
+      },
+      "links": [
+        {
+          "label": "doi",
+          "url": "https://doi.org/10.1145/3275495.3275512"
+        },
+        {
+          "label": "scopus",
+          "url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85061326295&origin=inward"
+        },
+        {
+          "label": "scopus_citedby",
+          "url": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85061326295&origin=inward"
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja": null,
+        "en": "Haptopus: Transferring the touch sense of the hand to the face using suction mechanism embedded in HMD"
+      },
+      "authors": {
+        "ja": [],
+        "en": [
+          "Takayuki Kameoka",
+          "Yuki Kon",
+          "Takuto Nakamura",
+          "Hiroyuki Kajimoto"
+        ]
+      },
+      "publisher": {
+        "ja": null,
+        "en": null
+      },
+      "venue": {
+        "ja": null,
+        "en": "SUI 2018 - Proceedings of the Symposium on Spatial User Interaction"
+      },
+      "date": "2018-10-13",
+      "date_sort": "2018-10-13",
+      "type": "international_conference_proceedings",
+      "pages": {
+        "start": "11",
+        "end": "15"
+      },
+      "identifiers": {
+        "doi": [
+          "10.1145/3267782.3267789"
+        ],
+        "isbn": [
+          "9781450357081"
+        ],
+        "scopus_id": [
+          "85058483666"
+        ]
+      },
+      "links": [
+        {
+          "label": "doi",
+          "url": "https://doi.org/10.1145/3267782.3267789"
+        },
+        {
+          "label": "scopus",
+          "url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85058483666&origin=inward"
+        },
+        {
+          "label": "scopus_citedby",
+          "url": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85058483666&origin=inward"
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja": null,
+        "en": "Measurement of stickiness with pressure distribution sensor"
+      },
+      "authors": {
+        "ja": [],
+        "en": [
+          "Takayuki Kameoka",
+          "Akifumi Takahashi",
+          "Vibol Yem",
+          "Hiroyuki Kajimoto"
+        ]
+      },
+      "publisher": {
+        "ja": null,
+        "en": null
+      },
+      "venue": {
+        "ja": null,
+        "en": "Lecture Notes in Electrical Engineering"
+      },
+      "date": "2018",
+      "date_sort": "2018-01-01",
+      "type": "international_conference_proceedings",
+      "pages": {
+        "start": "315",
+        "end": "319"
+      },
+      "identifiers": {
+        "doi": [
+          "10.1007/978-981-10-4157-0_54"
+        ],
+        "issn": [
+          "1876-1100"
+        ],
+        "e_issn": [
+          "1876-1119"
+        ],
+        "isbn": [
+          "9789811041563"
+        ],
+        "scopus_id": [
+          "85026475773"
+        ]
+      },
+      "links": [
+        {
+          "label": "doi",
+          "url": "https://doi.org/10.1007/978-981-10-4157-0_54"
+        },
+        {
+          "label": "scopus",
+          "url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85026475773&origin=inward"
+        },
+        {
+          "label": "scopus_citedby",
+          "url": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85026475773&origin=inward"
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja": null,
+        "en": "Quantification of stickiness using a pressure distribution sensor"
+      },
+      "authors": {
+        "ja": [],
+        "en": [
+          "Takayuki Kameoka",
+          "Akifumi Takahashi",
+          "Yem Vibol",
+          "Hiroyuki Kajimoto"
+        ]
+      },
+      "publisher": {
+        "ja": null,
+        "en": null
+      },
+      "venue": {
+        "ja": null,
+        "en": "2017 IEEE World Haptics Conference, WHC 2017"
+      },
+      "date": "2017-07-21",
+      "date_sort": "2017-07-21",
+      "type": "international_conference_proceedings",
+      "pages": {
+        "start": "617",
+        "end": "622"
+      },
+      "identifiers": {
+        "doi": [
+          "10.1109/WHC.2017.7989972"
+        ],
+        "isbn": [
+          "9781509014255"
+        ],
+        "scopus_id": [
+          "85034215435"
+        ]
+      },
+      "links": [
+        {
+          "label": "doi",
+          "url": "https://doi.org/10.1109/WHC.2017.7989972"
+        },
+        {
+          "label": "scopus",
+          "url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85034215435&origin=inward"
+        },
+        {
+          "label": "scopus_citedby",
+          "url": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85034215435&origin=inward"
+        }
+      ]
+    }
+  ],
+  "presentations": [
+    {
+      "title": {
+        "ja": "顔への吸引圧刺激によるバーチャルハンド錯覚の生起",
+        "en": "Virtual Hand Illusion Induced by Suction Pressure Stimulation to the Face"
+      },
+      "authors": {
+        "ja": [
+          "亀岡嵩幸",
+          "蜂須拓",
+          "梶本裕之"
+        ],
+        "en": [
+          "Takayuki Kameoka",
+          "Taku Hachisu",
+          "Hiroyuki Kajimoto"
+        ]
+      },
+      "venue": {
+        "ja": "日本バーチャルリアリティ学会研究報告(CD-ROM)",
+        "en": "日本バーチャルリアリティ学会研究報告(CD-ROM)"
+      },
+      "date": "2025",
+      "date_sort": "2025-01-01",
+      "links": [
+        {
+          "label": "doi",
+          "url": "https://doi.org/10.1007/978-3-031-70058-3_10"
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja": "エージェントの表情により生起する力覚の物理量による定量化",
+        "en": "Quantification of Perceived Force Induced by Agent Facial Expressions with Physical Dimensions"
+      },
+      "authors": {
+        "ja": [
+          "亀岡嵩幸",
+          "松山菜々",
+          "松田壮一郎",
+          "蜂須拓"
+        ],
+        "en": [
+          "亀岡嵩幸",
+          "松山菜々",
+          "松田壮一郎",
+          "蜂須拓"
+        ]
+      },
+      "venue": {
+        "ja": "日本バーチャルリアリティ学会大会論文集(CD-ROM)",
+        "en": "日本バーチャルリアリティ学会大会論文集(CD-ROM)"
+      },
+      "date": "2024",
+      "date_sort": "2024-01-01",
+      "links": []
+    },
+    {
+      "title": {
+        "ja": "VRを活用するメタバースコミュニティの理解にむけて (未来ビジョンWG)",
+        "en": null
+      },
+      "authors": {
+        "ja": [
+          "長谷川 晶一",
+          "亀岡 嵩幸",
+          "三武 裕玄",
+          "中島 遼",
+          "中山 俊秀",
+          "稲見 昌彦"
+        ],
+        "en": []
+      },
+      "venue": {
+        "ja": null,
+        "en": null
+      },
+      "date": null,
+      "date_sort": "",
+      "links": []
+    },
+    {
+      "title": {
+        "ja": "スマートフォン側面部電気刺激を用いたライブ配信における触覚インタラクションの検討",
+        "en": "Pilot Study on Haptic Live Stream Interaction on a Smartphone by Electro-Tactile Sensation Through the Edges"
+      },
+      "authors": {
+        "ja": [
+          "高見太基",
+          "齋藤大雅",
+          "亀岡嵩幸",
+          "梶本裕之"
+        ],
+        "en": [
+          "高見太基",
+          "齋藤大雅",
+          "亀岡嵩幸",
+          "梶本裕之"
+        ]
+      },
+      "venue": {
+        "ja": "情報処理学会研究報告(Web)",
+        "en": "情報処理学会研究報告(Web)"
+      },
+      "date": "2023",
+      "date_sort": "2023-01-01",
+      "links": []
+    },
+    {
+      "title": {
+        "ja": "バーチャルハンドの接触における視触覚間の空間的距離・感覚野的距離が身体所有感に及ぼす効果",
+        "en": "Effects of Spatial and Sensory Field Distance between Visual and Haptic Stimuli on Sense of Ownership for Virtual Hand Contact"
+      },
+      "authors": {
+        "ja": [
+          "亀岡嵩幸",
+          "蜂須拓"
+        ],
+        "en": [
+          "亀岡嵩幸",
+          "蜂須拓"
+        ]
+      },
+      "venue": {
+        "ja": "日本バーチャルリアリティ学会大会論文集(CD-ROM)",
+        "en": "日本バーチャルリアリティ学会大会論文集(CD-ROM)"
+      },
+      "date": "2023",
+      "date_sort": "2023-01-01",
+      "links": []
+    },
+    {
+      "title": {
+        "ja": "HMDを用いた没入型VR環境と物理環境における会話様式の変化に関する予備的調査",
+        "en": "Preliminary study on changes in conversational style between immersive VR environment using HMDs and physical environment"
+      },
+      "authors": {
+        "ja": [
+          "亀岡嵩幸",
+          "石塚裕己",
+          "松田壮一郎",
+          "蜂須拓"
+        ],
+        "en": [
+          "亀岡嵩幸",
+          "石塚裕己",
+          "松田壮一郎",
+          "蜂須拓"
+        ]
+      },
+      "venue": {
+        "ja": "日本バーチャルリアリティ学会大会論文集(CD-ROM)",
+        "en": "日本バーチャルリアリティ学会大会論文集(CD-ROM)"
+      },
+      "date": "2023",
+      "date_sort": "2023-01-01",
+      "links": []
+    },
+    {
+      "title": {
+        "ja": "バーチャル物体との接触に対する触覚刺激のもっともらしさを評価するストループ課題システムの基礎検討",
+        "en": "Emprical System Design of Stroop Tasks for Evaluating Plausibility of Tactile Stimuli for Contact with Virtual Objects"
+      },
+      "authors": {
+        "ja": [
+          "石川遼太郎",
+          "亀岡嵩幸",
+          "蜂須拓"
+        ],
+        "en": [
+          "石川遼太郎",
+          "亀岡嵩幸",
+          "蜂須拓"
+        ]
+      },
+      "venue": {
+        "ja": "日本バーチャルリアリティ学会大会論文集(CD-ROM)",
+        "en": "日本バーチャルリアリティ学会大会論文集(CD-ROM)"
+      },
+      "date": "2023",
+      "date_sort": "2023-01-01",
+      "links": []
+    },
+    {
+      "title": {
+        "ja": "ソーシャルVR環境におけるLRAを用いた視触覚インタラクション設計の予備的検討",
+        "en": "Preliminary Study of Visuio-Haptic interaction System in VR Environment using LRAs"
+      },
+      "authors": {
+        "ja": [
+          "亀岡嵩幸",
+          "早瀬友裕"
+        ],
+        "en": [
+          "亀岡嵩幸",
+          "早瀬友裕"
+        ]
+      },
+      "venue": {
+        "ja": "日本バーチャルリアリティ学会大会論文集(CD-ROM)",
+        "en": "日本バーチャルリアリティ学会大会論文集(CD-ROM)"
+      },
+      "date": "2023",
+      "date_sort": "2023-01-01",
+      "links": []
+    },
+    {
+      "title": {
+        "ja": "ストループ課題に基づいたタッピングによる硬さ知覚における視触覚間の干渉効果の評価",
+        "en": "Evaluation of Visual-Tactile Interference Effect on Perceived Stiffness during Tapping Interactions based on the Stroop Task"
+      },
+      "authors": {
+        "ja": [
+          "石川遼太郎",
+          "亀岡嵩幸",
+          "蜂須拓"
+        ],
+        "en": [
+          "石川遼太郎",
+          "亀岡嵩幸",
+          "蜂須拓"
+        ]
+      },
+      "venue": {
+        "ja": "日本バーチャルリアリティ学会論文誌(Web)",
+        "en": "日本バーチャルリアリティ学会論文誌(Web)"
+      },
+      "date": "2023",
+      "date_sort": "2023-01-01",
+      "links": []
+    },
+    {
+      "title": {
+        "ja": "材質知覚におけるタッピング時に生じる触覚刺激のもっともらしさを評価するストループ課題の設計",
+        "en": "Designing Stroop Tasks to Evaluate the Plausibility of Tactile Stimuli Elicited during Tapping in Material Perception"
+      },
+      "authors": {
+        "ja": [
+          "石川遼太郎",
+          "亀岡嵩幸",
+          "蜂須拓"
+        ],
+        "en": [
+          "石川遼太郎",
+          "亀岡嵩幸",
+          "蜂須拓"
+        ]
+      },
+      "venue": {
+        "ja": "計測自動制御学会システムインテグレーション部門講演会(CD-ROM)",
+        "en": "計測自動制御学会システムインテグレーション部門講演会(CD-ROM)"
+      },
+      "date": "2023",
+      "date_sort": "2023-01-01",
+      "links": []
+    },
+    {
+      "title": {
+        "ja": "スマートフォンの側面で皮膚電気刺激をするユーザインタフェースの検討",
+        "en": "User interface with skin electrical stimulation on the sides of the smartphone"
+      },
+      "authors": {
+        "ja": [
+          "高見太基",
+          "齋藤大雅",
+          "亀岡嵩幸",
+          "亀岡嵩幸",
+          "梶本裕之"
+        ],
+        "en": [
+          "高見太基",
+          "齋藤大雅",
+          "亀岡嵩幸",
+          "亀岡嵩幸",
+          "梶本裕之"
+        ]
+      },
+      "venue": {
+        "ja": "日本バーチャルリアリティ学会大会論文集(CD-ROM)",
+        "en": "日本バーチャルリアリティ学会大会論文集(CD-ROM)"
+      },
+      "date": "2022",
+      "date_sort": "2022-01-01",
+      "links": []
+    },
+    {
+      "title": {
+        "ja": "VR環境でのコミュニケーションにおける鏡の効果",
+        "en": null
+      },
+      "authors": {
+        "ja": [
+          "亀岡 嵩幸",
+          "金子 征太郎"
+        ],
+        "en": []
+      },
+      "venue": {
+        "ja": "バーチャル学会発表概要集",
+        "en": null
+      },
+      "date": "2021-12-17",
+      "date_sort": "2021-12-17",
+      "links": [
+        {
+          "label": "doi",
+          "url": "https://doi.org/10.57460/vconf.2021.0_44"
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja": "額電気刺激による温度感覚提示における複数点刺激の効果の検討",
+        "en": "Thermal Sensation on Forehead Using Electrical Stimulation-Effect of Multiple Point Stimulation"
+      },
+      "authors": {
+        "ja": [
+          "齋藤大雅",
+          "ZHANG Jianyao",
+          "亀岡嵩幸",
+          "亀岡嵩幸",
+          "梶本裕之"
+        ],
+        "en": [
+          "齋藤大雅",
+          "ZHANG Jianyao",
+          "亀岡嵩幸",
+          "亀岡嵩幸",
+          "梶本裕之"
+        ]
+      },
+      "venue": {
+        "ja": "日本バーチャルリアリティ学会大会論文集(CD-ROM)",
+        "en": "日本バーチャルリアリティ学会大会論文集(CD-ROM)"
+      },
+      "date": "2021",
+      "date_sort": "2021-01-01",
+      "links": []
+    },
+    {
+      "title": {
+        "ja": "スライムにピンアレイを刺突することによる表面凹凸の変化が平滑感知覚に与える影響",
+        "en": "The Effect of Surface Roughness Change Caused by Piercing a Slime with a Pin Array on Smoothness Perception"
+      },
+      "authors": {
+        "ja": [
+          "高見太基",
+          "齋藤大雅",
+          "亀岡嵩幸",
+          "亀岡嵩幸",
+          "梶本裕之"
+        ],
+        "en": [
+          "高見太基",
+          "齋藤大雅",
+          "亀岡嵩幸",
+          "亀岡嵩幸",
+          "梶本裕之"
+        ]
+      },
+      "venue": {
+        "ja": "日本バーチャルリアリティ学会大会論文集(CD-ROM)",
+        "en": "日本バーチャルリアリティ学会大会論文集(CD-ROM)"
+      },
+      "date": "2021",
+      "date_sort": "2021-01-01",
+      "links": []
+    },
+    {
+      "title": {
+        "ja": "顔面での皮膚吸引触覚刺激における有限要素解析",
+        "en": "Finite element analysis of skin suction tactile stimulation on the face"
+      },
+      "authors": {
+        "ja": [
+          "亀岡嵩幸",
+          "亀岡嵩幸",
+          "梶本裕之"
+        ],
+        "en": [
+          "亀岡嵩幸",
+          "亀岡嵩幸",
+          "梶本裕之"
+        ]
+      },
+      "venue": {
+        "ja": "日本バーチャルリアリティ学会大会論文集(CD-ROM)",
+        "en": "日本バーチャルリアリティ学会大会論文集(CD-ROM)"
+      },
+      "date": "2021",
+      "date_sort": "2021-01-01",
+      "links": []
+    },
+    {
+      "title": {
+        "ja": "スライムへのピンアレイ刺突による触感変調の計測",
+        "en": "Measurement of tactile modulation by pin array piercing of slime"
+      },
+      "authors": {
+        "ja": [
+          "高見太基",
+          "齋藤大雅",
+          "ZHANG Jianyao",
+          "亀岡嵩幸",
+          "梶本裕之"
+        ],
+        "en": [
+          "高見太基",
+          "齋藤大雅",
+          "ZHANG Jianyao",
+          "亀岡嵩幸",
+          "梶本裕之"
+        ]
+      },
+      "venue": {
+        "ja": "計測自動制御学会システムインテグレーション部門講演会(CD-ROM)",
+        "en": "計測自動制御学会システムインテグレーション部門講演会(CD-ROM)"
+      },
+      "date": "2021",
+      "date_sort": "2021-01-01",
+      "links": []
+    },
+    {
+      "title": {
+        "ja": "額電気刺激による温度感覚提示の予備的検討",
+        "en": "Preliminary Examination of a Thermal Sense Presentation Using Forehead Electrical Stimulation"
+      },
+      "authors": {
+        "ja": [
+          "齋藤大雅",
+          "ZHANG Jianyao",
+          "亀岡嵩幸",
+          "梶本裕之"
+        ],
+        "en": [
+          "齋藤大雅",
+          "ZHANG Jianyao",
+          "亀岡嵩幸",
+          "梶本裕之"
+        ]
+      },
+      "venue": {
+        "ja": "日本バーチャルリアリティ学会大会論文集(CD-ROM)",
+        "en": "日本バーチャルリアリティ学会大会論文集(CD-ROM)"
+      },
+      "date": "2020",
+      "date_sort": "2020-01-01",
+      "links": []
+    },
+    {
+      "title": {
+        "ja": "額電気刺激による温度感覚提示の検討",
+        "en": "Examination of Thermal Sensation Using Forehead Stimulation"
+      },
+      "authors": {
+        "ja": [
+          "齋藤大雅",
+          "ZHANG Jianyao",
+          "亀岡嵩幸",
+          "梶本裕之"
+        ],
+        "en": [
+          "齋藤大雅",
+          "ZHANG Jianyao",
+          "亀岡嵩幸",
+          "梶本裕之"
+        ]
+      },
+      "venue": {
+        "ja": "計測自動制御学会システムインテグレーション部門講演会(CD-ROM)",
+        "en": "計測自動制御学会システムインテグレーション部門講演会(CD-ROM)"
+      },
+      "date": "2020",
+      "date_sort": "2020-01-01",
+      "links": []
+    },
+    {
+      "title": {
+        "ja": "顔面への吸引触覚提示における感覚提示手法の検討",
+        "en": null
+      },
+      "authors": {
+        "ja": [
+          "亀岡嵩幸",
+          "今悠気",
+          "梶本裕之"
+        ],
+        "en": []
+      },
+      "venue": {
+        "ja": "日本バーチャルリアリティ学会大会論文集(CD-ROM)",
+        "en": null
+      },
+      "date": "2019",
+      "date_sort": "2019-01-01",
+      "links": []
+    },
+    {
+      "title": {
+        "ja": "失禁体験装置：尿失禁感覚再現装置の開発とその応用",
+        "en": "Development and Evaluation Urinary Incontinence Experience Device"
+      },
+      "authors": {
+        "ja": [
+          "亀岡, 嵩幸",
+          "宮上, 昌大",
+          "浅井, 晴貴",
+          "高木, 省吾",
+          "荒生, 太一",
+          "市川, 裕駿",
+          "日下, 雅博",
+          "大下, 雅昭"
+        ],
+        "en": []
+      },
+      "venue": {
+        "ja": "エンタテインメントコンピューティングシンポジウム2018論文集",
+        "en": null
+      },
+      "date": "2018-09-06",
+      "date_sort": "2018-09-06",
+      "links": [
+        {
+          "label": "url",
+          "url": "http://id.nii.ac.jp/1001/00191061/"
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja": "圧力分布センサを用いた粘着感の測定",
+        "en": null
+      },
+      "authors": {
+        "ja": [
+          "亀岡嵩幸",
+          "高橋哲史",
+          "VIBOL Yem",
+          "梶本裕之"
+        ],
+        "en": []
+      },
+      "venue": {
+        "ja": "日本バーチャルリアリティ学会大会論文集(CD-ROM)",
+        "en": null
+      },
+      "date": "2016",
+      "date_sort": "2016-01-01",
+      "links": []
+    },
+    {
+      "title": {
+        "ja": "The first cradle~うまれるまえのゆりかご~",
+        "en": null
+      },
+      "authors": {
+        "ja": [
+          "金子征太郎",
+          "塩之入央空",
+          "亀岡嵩幸",
+          "水原遼",
+          "武井友里恵",
+          "鈴木凱",
+          "平山奎悟",
+          "石倉裕可",
+          "市川裕駿"
+        ],
+        "en": []
+      },
+      "venue": {
+        "ja": "日本バーチャルリアリティ学会大会論文集(CD-ROM)",
+        "en": null
+      },
+      "date": "2016",
+      "date_sort": "2016-01-01",
+      "links": []
+    }
+  ],
+  "misc": [
+    {
+      "title": {
+        "ja": "IVRC2023（Interverse Virtual Reality Challenge）開催報告",
+        "en": null
+      },
+      "authors": {
+        "ja": [
+          "稲見 昌彦",
+          "安藤 英由樹",
+          "三武 裕玄",
+          "石塚 裕己",
+          "梶本 裕之",
+          "佐々木 智也",
+          "中村 拓人",
+          "長谷川 晶一",
+          "白井 暁彦",
+          "亀岡 嵩幸",
+          "畑田 裕二"
+        ],
+        "en": []
+      },
+      "venue": {
+        "ja": "日本バーチャルリアリティ学会誌",
+        "en": null
+      },
+      "publisher": {
+        "ja": "特定非営利活動法人 日本バーチャルリアリティ学会",
+        "en": null
+      },
+      "date": "2024-03-31",
+      "date_sort": "2024-03-31",
+      "identifiers": {
+        "cinii_cr_id": [
+          "1390862931515433088"
+        ],
+        "doi": [
+          "10.18974/jvrsj.29.1_39"
+        ],
+        "e_issn": [
+          "2435-8746"
+        ],
+        "issn": [
+          "1342-6680"
+        ]
+      },
+      "links": [
+        {
+          "label": "cinii_research",
+          "url": "https://cir.nii.ac.jp/crid/1390862931515433088?lang=ja"
+        },
+        {
+          "label": "doi",
+          "url": "https://doi.org/10.18974/jvrsj.29.1_39"
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja": "スマートフォン側面部電気刺激インタフェースを用いた柔らかさ感を提示できるグリップ入力手法の検討",
+        "en": "Pilot Study of the Grip Input Method that Presents Softness Sensation by Electro-Tactile Stimulation at the Edge of the Smartphone"
+      },
+      "authors": {
+        "ja": [
+          "高見 太基",
+          "齋藤 大雅",
+          "亀岡 嵩幸",
+          "溝口 泉",
+          "梶本 裕之"
+        ],
+        "en": [
+          "TAKAMI Taiki",
+          "SAITO Taiga",
+          "KAMEOKA Takayuki",
+          "MIZOGUCHI Izumi",
+          "KAJIMOTO Hiroyuki"
+        ]
+      },
+      "venue": {
+        "ja": "ロボティクス・メカトロニクス講演会講演概要集",
+        "en": "The Proceedings of JSME annual Conference on Robotics and Mechatronics (Robomec)"
+      },
+      "publisher": {
+        "ja": "一般社団法人 日本機械学会",
+        "en": "The Japan Society of Mechanical Engineers"
+      },
+      "date": "2023",
+      "date_sort": "2023-01-01",
+      "identifiers": {
+        "issn": [
+          "2424-3124"
+        ],
+        "j_global_id": [
+          "202402270519824067"
+        ],
+        "doi": [
+          "10.1299/jsmermd.2023.2a2-i24"
+        ],
+        "e_issn": [
+          "2424-3124"
+        ],
+        "cinii_cr_id": [
+          "1390861869684898688"
+        ]
+      },
+      "links": [
+        {
+          "label": "j_global",
+          "url": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202402270519824067"
+        },
+        {
+          "label": "doi",
+          "url": "https://doi.org/10.1299/jsmermd.2023.2a2-i24"
+        },
+        {
+          "label": "cinii_research",
+          "url": "https://cir.nii.ac.jp/crid/1390861869684898688?lang=ja"
+        },
+        {
+          "label": "url",
+          "url": "https://www.jstage.jst.go.jp/article/jsmermd/2023/0/2023_2A2-I24/_pdf"
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja": "バーチャル学会2020",
+        "en": "小特集 バーチャル学会2020"
+      },
+      "authors": {
+        "ja": [
+          "亀岡 嵩幸",
+          "Lcamu",
+          "誰彼人",
+          "ふじ",
+          "かた湯",
+          "天野ステラ"
+        ],
+        "en": [
+          "Kameoka Takayuki",
+          "Lcamu",
+          "Takato",
+          "Katayu",
+          "Amano Stella G."
+        ]
+      },
+      "venue": {
+        "ja": "日本バーチャルリアリティ学会誌",
+        "en": "Journal of the Virtual Reality Society of Japan"
+      },
+      "publisher": {
+        "ja": "特定非営利活動法人 日本バーチャルリアリティ学会",
+        "en": "The Virtual Reality Society of Japan"
+      },
+      "date": "2021-06-30",
+      "date_sort": "2021-06-30",
+      "identifiers": {
+        "doi": [
+          "10.18974/jvrsj.26.2_14"
+        ],
+        "issn": [
+          "1342-6680"
+        ],
+        "e_issn": [
+          "2435-8746"
+        ],
+        "cinii_na_id": [
+          "130008064012"
+        ],
+        "cinii_nc_id": [
+          "AA11461758"
+        ],
+        "cinii_cr_id": [
+          "1390288691669223040"
+        ]
+      },
+      "links": [
+        {
+          "label": "doi",
+          "url": "https://doi.org/10.18974/jvrsj.26.2_14"
+        },
+        {
+          "label": "cinii_books",
+          "url": "http://ci.nii.ac.jp/ncid/AA11461758"
+        },
+        {
+          "label": "cinii_research",
+          "url": "https://cir.nii.ac.jp/crid/1390288691669223040?lang=ja"
+        },
+        {
+          "label": "url",
+          "url": "https://ndlsearch.ndl.go.jp/books/R000000004-I031609467"
+        },
+        {
+          "label": "url",
+          "url": "http://id.ndl.go.jp/bib/031609467"
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja": "バーチャル学会の可能性",
+        "en": "バーチャル学会の可能性 : ホッとひといき"
+      },
+      "authors": {
+        "ja": [
+          "亀岡 嵩幸"
+        ],
+        "en": [
+          "KAMEOKA Takayuki"
+        ]
+      },
+      "venue": {
+        "ja": "応用物理",
+        "en": "Oyo Buturi"
+      },
+      "publisher": {
+        "ja": "公益社団法人 応用物理学会",
+        "en": "The Japan Society of Applied Physics"
+      },
+      "date": "2021-02-05",
+      "date_sort": "2021-02-05",
+      "identifiers": {
+        "doi": [
+          "10.11470/oubutsu.90.2_126"
+        ],
+        "issn": [
+          "0369-8009"
+        ],
+        "e_issn": [
+          "2188-2290"
+        ],
+        "cinii_na_id": [
+          "130007981082"
+        ],
+        "cinii_nc_id": [
+          "AN00026679"
+        ],
+        "cinii_cr_id": [
+          "1390850092193071360"
+        ]
+      },
+      "links": [
+        {
+          "label": "doi",
+          "url": "https://doi.org/10.11470/oubutsu.90.2_126"
+        },
+        {
+          "label": "cinii_books",
+          "url": "http://ci.nii.ac.jp/ncid/AN00026679"
+        },
+        {
+          "label": "cinii_research",
+          "url": "https://cir.nii.ac.jp/crid/1390850092193071360?lang=ja"
+        },
+        {
+          "label": "url",
+          "url": "https://ndlsearch.ndl.go.jp/books/R000000004-I031285772"
+        },
+        {
+          "label": "url",
+          "url": "http://id.ndl.go.jp/bib/031285772"
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja": "顔面への皮膚吸引刺激における吸引孔形状の違いによる感覚変化",
+        "en": "Changes in Sensation of Skin Suction Stimulation on Face by Different Shapes of Suction Hole."
+      },
+      "authors": {
+        "ja": [
+          "亀岡 嵩幸",
+          "梶本 裕之"
+        ],
+        "en": [
+          "KAMEOKA Takayuki",
+          "KAJIMOTO Hiroyuki"
+        ]
+      },
+      "venue": {
+        "ja": "ロボティクス・メカトロニクス講演会講演概要集",
+        "en": "The Proceedings of JSME annual Conference on Robotics and Mechatronics (Robomec)"
+      },
+      "publisher": {
+        "ja": "一般社団法人 日本機械学会",
+        "en": "The Japan Society of Mechanical Engineers"
+      },
+      "date": "2021",
+      "date_sort": "2021-01-01",
+      "identifiers": {
+        "issn": [
+          "2424-3124"
+        ],
+        "j_global_id": [
+          "202402269755174496"
+        ],
+        "doi": [
+          "10.1299/jsmermd.2021.1p1-m09"
+        ],
+        "e_issn": [
+          "2424-3124"
+        ],
+        "cinii_na_id": [
+          "130008135051"
+        ],
+        "cinii_cr_id": [
+          "1390290537431953792"
+        ]
+      },
+      "links": [
+        {
+          "label": "j_global",
+          "url": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202402269755174496"
+        },
+        {
+          "label": "doi",
+          "url": "https://doi.org/10.1299/jsmermd.2021.1p1-m09"
+        },
+        {
+          "label": "cinii_research",
+          "url": "https://cir.nii.ac.jp/crid/1390290537431953792?lang=ja"
+        },
+        {
+          "label": "url",
+          "url": "https://www.jstage.jst.go.jp/article/jsmermd/2021/0/2021_1P1-M09/_pdf"
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja": "触覚とHMD:Haptopusの提案",
+        "en": "触覚と HMD: Haptopus の提案"
+      },
+      "authors": {
+        "ja": [
+          "亀岡嵩幸"
+        ],
+        "en": [
+          "KAMEOKA, TAKAYUKI"
+        ]
+      },
+      "venue": {
+        "ja": "日本バーチャルリアリティ学会誌",
+        "en": "日本バーチャルリアリティ学会誌"
+      },
+      "publisher": {
+        "ja": null,
+        "en": null
+      },
+      "date": "2021",
+      "date_sort": "2021-01-01",
+      "identifiers": {
+        "issn": [
+          "1342-6680"
+        ],
+        "j_global_id": [
+          "202202268082417234"
+        ],
+        "orcid_put_cd": [
+          "133218056"
+        ]
+      },
+      "links": [
+        {
+          "label": "j_global",
+          "url": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202202268082417234"
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja": "第25回大会報告",
+        "en": "特集 第25回大会報告"
+      },
+      "authors": {
+        "ja": [
+          "小木 哲朗",
+          "安藤 英由樹",
+          "野間 春生",
+          "長谷川 晶一",
+          "黒田 嘉宏",
+          "伊藤 雄一",
+          "亀岡 嵩幸",
+          "野嶋 琢也",
+          "永谷 直久",
+          "今村 伊知郎",
+          "藤井 彩貴",
+          "鳴海 拓志",
+          "古川 正紘",
+          "伊東 健一",
+          "木村 朝子"
+        ],
+        "en": []
+      },
+      "venue": {
+        "ja": "日本バーチャルリアリティ学会誌",
+        "en": "Journal of the Virtual Reality Society of Japan"
+      },
+      "publisher": {
+        "ja": "特定非営利活動法人 日本バーチャルリアリティ学会",
+        "en": "The Virtual Reality Society of Japan"
+      },
+      "date": "2020-12-31",
+      "date_sort": "2020-12-31",
+      "identifiers": {
+        "doi": [
+          "10.18974/jvrsj.25.4_6"
+        ],
+        "issn": [
+          "1342-6680"
+        ],
+        "e_issn": [
+          "2435-8746"
+        ],
+        "cinii_na_id": [
+          "130007980886"
+        ],
+        "cinii_nc_id": [
+          "AA11461758"
+        ],
+        "cinii_cr_id": [
+          "1390849931334847744"
+        ]
+      },
+      "links": [
+        {
+          "label": "doi",
+          "url": "https://doi.org/10.18974/jvrsj.25.4_6"
+        },
+        {
+          "label": "cinii_books",
+          "url": "http://ci.nii.ac.jp/ncid/AA11461758"
+        },
+        {
+          "label": "cinii_research",
+          "url": "https://cir.nii.ac.jp/crid/1390849931334847744?lang=ja"
+        },
+        {
+          "label": "url",
+          "url": "https://ndlsearch.ndl.go.jp/books/R000000004-I031280300"
+        },
+        {
+          "label": "url",
+          "url": "http://id.ndl.go.jp/bib/031280300"
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja": "学会オンライン化・VR開催の幕開け",
+        "en": "小特集 学会オンライン化・VR開催の幕開け"
+      },
+      "authors": {
+        "ja": [
+          "亀岡 嵩幸",
+          "佐瀬 一弥",
+          "吉元 俊輔",
+          "蜂須 拓",
+          "嵯峨 智",
+          "黒田 嘉宏",
+          "矢内 智大",
+          "石丸 翔也",
+          "川口 碧",
+          "清川 清",
+          "ヤェム ヴィボル",
+          "白井 暁彦"
+        ],
+        "en": [
+          "Kameoka Takayuki",
+          "Sase Kazuya",
+          "Yoshimoto Shunsuke",
+          "Hachisu Taku",
+          "Saga Satoshi",
+          "Kuroda Yoshihiro",
+          "Yanai Tomohiro",
+          "Ishimaru Shoya",
+          "Kawaguchi Midori",
+          "Kiyokawa Kiyoshi",
+          "Vibol Yem",
+          "Shirai Akihiko"
+        ]
+      },
+      "venue": {
+        "ja": "日本バーチャルリアリティ学会誌",
+        "en": "Journal of the Virtual Reality Society of Japan"
+      },
+      "publisher": {
+        "ja": "特定非営利活動法人 日本バーチャルリアリティ学会",
+        "en": "The Virtual Reality Society of Japan"
+      },
+      "date": "2020-06-30",
+      "date_sort": "2020-06-30",
+      "identifiers": {
+        "doi": [
+          "10.18974/jvrsj.25.2_35"
+        ],
+        "issn": [
+          "1342-6680"
+        ],
+        "e_issn": [
+          "2435-8746"
+        ],
+        "cinii_na_id": [
+          "130007935411"
+        ],
+        "cinii_nc_id": [
+          "AA11461758"
+        ],
+        "cinii_cr_id": [
+          "1390849376467883136"
+        ]
+      },
+      "links": [
+        {
+          "label": "doi",
+          "url": "https://doi.org/10.18974/jvrsj.25.2_35"
+        },
+        {
+          "label": "cinii_books",
+          "url": "http://ci.nii.ac.jp/ncid/AA11461758"
+        },
+        {
+          "label": "cinii_research",
+          "url": "https://cir.nii.ac.jp/crid/1390849376467883136?lang=ja"
+        },
+        {
+          "label": "url",
+          "url": "https://ndlsearch.ndl.go.jp/books/R000000004-I030548702"
+        },
+        {
+          "label": "url",
+          "url": "http://id.ndl.go.jp/bib/030548702"
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja": "バーチャル学会開催後記 -VR空間に見出す次世代の学会形式-",
+        "en": null
+      },
+      "authors": {
+        "ja": [
+          "亀岡, 嵩幸"
+        ],
+        "en": []
+      },
+      "venue": {
+        "ja": "情報処理",
+        "en": null
+      },
+      "publisher": {
+        "ja": null,
+        "en": null
+      },
+      "date": "2020-06-15",
+      "date_sort": "2020-06-15",
+      "identifiers": {
+        "cinii_na_id": [
+          "170000182016"
+        ],
+        "cinii_nc_id": [
+          "AN00116625"
+        ],
+        "cinii_cr_id": [
+          "1050003824809572224"
+        ]
+      },
+      "links": [
+        {
+          "label": "cinii_books",
+          "url": "http://ci.nii.ac.jp/ncid/AN00116625"
+        },
+        {
+          "label": "cinii_research",
+          "url": "https://cir.nii.ac.jp/crid/1050003824809572224?lang=ja"
+        },
+        {
+          "label": "url",
+          "url": "http://id.nii.ac.jp/1001/00204819/"
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja": "Haptopus：HMDへの吸引触覚提示機構の内蔵―気圧変調による硬軟感提示―",
+        "en": "Haptopus: Built-in Suction Tactile Presentation Mechanism for HMD- Presentation of Softness by Pressure Modulation -"
+      },
+      "authors": {
+        "ja": [
+          "亀岡 嵩幸",
+          "梶本 裕之"
+        ],
+        "en": [
+          "KAMEOKA Takayuki",
+          "KAJIMOTO Hiroyuki"
+        ]
+      },
+      "venue": {
+        "ja": "ロボティクス・メカトロニクス講演会講演概要集",
+        "en": "The Proceedings of JSME annual Conference on Robotics and Mechatronics (Robomec)"
+      },
+      "publisher": {
+        "ja": "一般社団法人 日本機械学会",
+        "en": "The Japan Society of Mechanical Engineers"
+      },
+      "date": "2020",
+      "date_sort": "2020-01-01",
+      "identifiers": {
+        "issn": [
+          "2424-3124"
+        ],
+        "j_global_id": [
+          "202002299526621624"
+        ],
+        "doi": [
+          "10.1299/jsmermd.2020.2p1-m12"
+        ],
+        "e_issn": [
+          "2424-3124"
+        ],
+        "cinii_na_id": [
+          "130007944393"
+        ],
+        "cinii_cr_id": [
+          "1390004951545320704"
+        ]
+      },
+      "links": [
+        {
+          "label": "j_global",
+          "url": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002299526621624"
+        },
+        {
+          "label": "doi",
+          "url": "https://doi.org/10.1299/jsmermd.2020.2p1-m12"
+        },
+        {
+          "label": "cinii_research",
+          "url": "https://cir.nii.ac.jp/crid/1390004951545320704?lang=ja"
+        },
+        {
+          "label": "url",
+          "url": "https://www.jstage.jst.go.jp/article/jsmermd/2020/0/2020_2P1-M12/_pdf"
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja": "粘着力分布計測によるスキンケア製剤のべたつき感の評価",
+        "en": "Evaluation for Stickiness Feel of Skin-care Products Using Pressure Distribution Sensor"
+      },
+      "authors": {
+        "ja": [
+          "松森 孝平",
+          "齋藤 直輝",
+          "荒川 尚美",
+          "亀岡 嵩幸",
+          "梶本 裕之"
+        ],
+        "en": [
+          "MATSUMORI Kohei",
+          "SAITO Naoki",
+          "ARAKAWA Naomi",
+          "KAMEOKA Takayuki",
+          "KAJIMOTO Hiroyuki"
+        ]
+      },
+      "venue": {
+        "ja": "ロボティクス・メカトロニクス講演会講演概要集",
+        "en": "The Proceedings of JSME annual Conference on Robotics and Mechatronics (Robomec)"
+      },
+      "publisher": {
+        "ja": "一般社団法人 日本機械学会",
+        "en": "The Japan Society of Mechanical Engineers"
+      },
+      "date": "2018",
+      "date_sort": "2018-01-01",
+      "identifiers": {
+        "issn": [
+          "2424-3124"
+        ],
+        "j_global_id": [
+          "201802246071572056"
+        ],
+        "doi": [
+          "10.1299/jsmermd.2018.1a1-i13"
+        ],
+        "e_issn": [
+          "2424-3124"
+        ],
+        "cinii_na_id": [
+          "130007550975"
+        ],
+        "cinii_cr_id": [
+          "1390845713032029568"
+        ]
+      },
+      "links": [
+        {
+          "label": "j_global",
+          "url": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201802246071572056"
+        },
+        {
+          "label": "doi",
+          "url": "https://doi.org/10.1299/jsmermd.2018.1a1-i13"
+        },
+        {
+          "label": "cinii_research",
+          "url": "https://cir.nii.ac.jp/crid/1390845713032029568?lang=ja"
+        },
+        {
+          "label": "url",
+          "url": "https://www.jstage.jst.go.jp/article/jsmermd/2018/0/2018_1A1-I13/_pdf"
+        }
+      ]
+    }
+  ],
+  "books": [
+    {
+      "title": {
+        "ja": "メタバース・XR技術の教育利用と国際協創 : 東北大学未来社会デザインプログラム第1回国際シンポジウム",
+        "en": null
+      },
+      "authors": {
+        "ja": [
+          "林, 雅子"
+        ],
+        "en": []
+      },
+      "publisher": {
+        "ja": "東北大学出版会",
+        "en": null
+      },
+      "date": "2024-09",
+      "date_sort": "2024-09-01",
+      "identifiers": {
+        "cinii_nc_id": [
+          "BD08867641"
+        ],
+        "isbn": [
+          "9784861633942"
+        ]
+      },
+      "links": [
+        {
+          "label": "cinii_books",
+          "url": "http://ci.nii.ac.jp/ncid/BD08867641"
+        }
+      ]
+    }
+  ]
+}

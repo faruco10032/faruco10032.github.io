@@ -1,0 +1,72 @@
+﻿---
+import Base from '../../layouts/Base.astro';
+import site from '../../data/site.json';
+import researchmap from '../../data/researchmap.json';
+import { getCollection } from 'astro:content';
+
+const news = (await getCollection('news_en')).sort((a,b)=> b.data.date.valueOf() - a.data.date.valueOf()).slice(0,3);
+const projects = (await getCollection('projects_en')).slice(0,3);
+
+const nav = [
+  { label: 'Research', href: '/en/research/' },
+  { label: 'Publications', href: '/en/publications/' },
+  { label: 'Members', href: '/en/members/' },
+  { label: 'Grants & Activities', href: '/en/activities/' },
+  { label: 'Teaching', href: '/en/teaching/' },
+  { label: 'Access', href: '/en/access/' },
+  { label: 'About', href: '/en/about/' }
+];
+---
+<Base title="Kameoka Lab | Kyushu University" lang="en" nav={nav} altLang={{ href: '/ja/', label: 'JA' }}>
+  <section class="hero container">
+    <div>
+      <h1>Designing haptics and body perception for richer experiences.</h1>
+      <p>Kameoka Lab explores haptic interfaces, VR, and HCI to redesign how people perceive their bodies in interactive environments.</p>
+      <div class="hero-card">
+        <div class="badge">Affiliation</div>
+        <div>{site.affiliation.en}</div>
+        <div style="margin-top:8px;"><span class="badge">Email</span> {site.email}</div>
+      </div>
+    </div>
+    <div class="hero-image" aria-hidden="true"></div>
+  </section>
+
+  <section class="section container">
+    <h2>Highlights</h2>
+    <div class="grid grid-3">
+      {projects.map((p) => (
+        <article class="card">
+          <h3>{p.data.title}</h3>
+          <div>{p.data.summary}</div>
+          {p.data.keywords && (
+            <div style="margin-top:10px;">
+              {p.data.keywords.map((k) => (<span class="badge">{k}</span>))}
+            </div>
+          )}
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="section container">
+    <h2>Latest News</h2>
+    <div class="list">
+      {news.map((n) => (
+        <div class="list-item">
+          <div class="badge">{n.data.date.toISOString().slice(0,10)}</div>
+          <strong>{n.data.title}</strong>
+          {n.data.summary && <div>{n.data.summary}</div>}
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="section container">
+    <h2>Keywords</h2>
+    <div>
+      {(researchmap.interests || []).map((i) => (
+        <span class="badge">{i.en || i.ja}</span>
+      ))}
+    </div>
+  </section>
+</Base>

@@ -1,0 +1,49 @@
+﻿---
+import Base from '../../../layouts/Base.astro';
+import researchmap from '../../../data/researchmap.json';
+import { getCollection, getEntryBySlug } from 'astro:content';
+
+const projects = await getCollection('projects_en');
+const page = await getEntryBySlug('pages_en', 'research');
+const nav = [
+  { label: 'Research', href: '/en/research/' },
+  { label: 'Publications', href: '/en/publications/' },
+  { label: 'Members', href: '/en/members/' },
+  { label: 'Grants & Activities', href: '/en/activities/' },
+  { label: 'Teaching', href: '/en/teaching/' },
+  { label: 'Access', href: '/en/access/' },
+  { label: 'About', href: '/en/about/' }
+];
+---
+<Base title="Research | Kameoka Lab" lang="en" nav={nav} altLang={{ href: '/ja/research/', label: 'JA' }}>
+  <section class="section container">
+    <h2>{page.data.title}</h2>
+    {page.data.lead && <p>{page.data.lead}</p>}
+  </section>
+
+  <section class="section container">
+    <h2>Projects</h2>
+    <div class="grid grid-2">
+      {projects.map((p) => (
+        <article class="card">
+          <h3>{p.data.title}</h3>
+          <div>{p.data.summary}</div>
+          {p.data.year && <div class="badge">{p.data.year}</div>}
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="section container">
+    <h2>Grants</h2>
+    <div class="list">
+      {(researchmap.research_projects || []).map((g) => (
+        <div class="list-item">
+          <strong>{g.title.en || g.title.ja}</strong>
+          <div>{g.organization.en || g.organization.ja}</div>
+          <div class="badge">{g.from} - {g.to}</div>
+        </div>
+      ))}
+    </div>
+  </section>
+</Base>

@@ -1,0 +1,25 @@
+﻿---
+import Base from '../../../layouts/Base.astro';
+import { getEntryBySlug } from 'astro:content';
+
+const page = await getEntryBySlug('pages_ja', 'prospective');
+const { Content } = await page.render();
+const nav = [
+  { label: '研究', href: '/ja/research/' },
+  { label: '業績', href: '/ja/publications/' },
+  { label: 'メンバー', href: '/ja/members/' },
+  { label: '助成・活動', href: '/ja/activities/' },
+  { label: '講義資料', href: '/ja/teaching/' },
+  { label: 'アクセス', href: '/ja/access/' },
+  { label: '研究室について', href: '/ja/about/' }
+];
+---
+<Base title="参加希望の方へ | 亀岡研究室" lang="ja" nav={nav} altLang={{ href: '/en/prospective/', label: 'EN' }}>
+  <section class="section container">
+    <h2>{page.data.title}</h2>
+    {page.data.lead && <p>{page.data.lead}</p>}
+    <article class="card" style="margin-top:16px;">
+      <Content />
+    </article>
+  </section>
+</Base>

@@ -1,0 +1,16 @@
+﻿{
+  "name": {
+    "ja": "亀岡研究室",
+    "en": "Kameoka Lab"
+  },
+  "affiliation": {
+    "ja": "九州大学 芸術工学研究院 メディアデザイン部門 助教",
+    "en": "Kyushu University, Faculty of Design, Department of Media Design"
+  },
+  "address": {
+    "ja": "〒815-0032 福岡県福岡市南区塩原4-9-1 2号館610号室",
+    "en": "Building #2, Room 610, 4-9-1 Shiobaru, Minami-ku, Fukuoka, 815-0032, Japan"
+  },
+  "email": "kameoka@design.kyushu-u.ac.jp",
+  "map_url": "https://maps.google.com/?q=4-9-1+Shiobaru+Minami-ku+Fukuoka"
+}

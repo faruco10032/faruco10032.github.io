@@ -1,0 +1,159 @@
+﻿backend:
+  name: github
+  repo: faruco10032/faruco10032.github.io
+  branch: main
+  base_url: https://decap-cms-oauth-six.vercel.app
+  auth_endpoint: /auth
+
+publish_mode: simple
+media_folder: public/media
+public_folder: /media
+
+site_url: https://faruco10032.github.io
+
+display_url: https://faruco10032.github.io
+
+collections:
+  - name: news_ja
+    label: News (JA)
+    folder: src/content/news_ja
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Date, name: date, widget: datetime }
+      - { label: Summary, name: summary, widget: text, required: false }
+      - { label: Cover, name: cover, widget: image, required: false }
+      - { label: Tags, name: tags, widget: list, required: false }
+      - { label: Body, name: body, widget: markdown }
+
+  - name: news_en
+    label: News (EN)
+    folder: src/content/news_en
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Date, name: date, widget: datetime }
+      - { label: Summary, name: summary, widget: text, required: false }
+      - { label: Cover, name: cover, widget: image, required: false }
+      - { label: Tags, name: tags, widget: list, required: false }
+      - { label: Body, name: body, widget: markdown }
+
+  - name: projects_ja
+    label: Projects (JA)
+    folder: src/content/projects_ja
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Summary, name: summary, widget: text }
+      - { label: Year, name: year, widget: string, required: false }
+      - { label: Status, name: status, widget: string, required: false }
+      - { label: Keywords, name: keywords, widget: list, required: false }
+      - { label: Gallery, name: gallery, widget: list, required: false, field: {label: Image, name: image, widget: image} }
+      - { label: Body, name: body, widget: markdown, required: false }
+
+  - name: projects_en
+    label: Projects (EN)
+    folder: src/content/projects_en
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Summary, name: summary, widget: text }
+      - { label: Year, name: year, widget: string, required: false }
+      - { label: Status, name: status, widget: string, required: false }
+      - { label: Keywords, name: keywords, widget: list, required: false }
+      - { label: Gallery, name: gallery, widget: list, required: false, field: {label: Image, name: image, widget: image} }
+      - { label: Body, name: body, widget: markdown, required: false }
+
+  - name: members_ja
+    label: Members (JA)
+    folder: src/content/members_ja
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: Name, name: name, widget: string }
+      - { label: Role, name: role, widget: string }
+      - { label: Affiliation, name: affiliation, widget: string, required: false }
+      - { label: Email, name: email, widget: string, required: false }
+      - { label: Keywords, name: keywords, widget: list, required: false }
+      - { label: Photo, name: photo, widget: image, required: false }
+      - label: Links
+        name: links
+        widget: list
+        required: false
+        fields:
+          - { label: Label, name: label, widget: string }
+          - { label: URL, name: url, widget: string }
+      - { label: Body, name: body, widget: markdown, required: false }
+
+  - name: members_en
+    label: Members (EN)
+    folder: src/content/members_en
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: Name, name: name, widget: string }
+      - { label: Role, name: role, widget: string }
+      - { label: Affiliation, name: affiliation, widget: string, required: false }
+      - { label: Email, name: email, widget: string, required: false }
+      - { label: Keywords, name: keywords, widget: list, required: false }
+      - { label: Photo, name: photo, widget: image, required: false }
+      - label: Links
+        name: links
+        widget: list
+        required: false
+        fields:
+          - { label: Label, name: label, widget: string }
+          - { label: URL, name: url, widget: string }
+      - { label: Body, name: body, widget: markdown, required: false }
+
+  - name: pages_ja
+    label: Pages (JA)
+    folder: src/content/pages_ja
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Lead, name: lead, widget: text, required: false }
+      - { label: Hero Image, name: hero_image, widget: image, required: false }
+      - { label: Body, name: body, widget: markdown }
+
+  - name: pages_en
+    label: Pages (EN)
+    folder: src/content/pages_en
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Lead, name: lead, widget: text, required: false }
+      - { label: Hero Image, name: hero_image, widget: image, required: false }
+      - { label: Body, name: body, widget: markdown }
+
+  - name: teaching_ja
+    label: Teaching (JA)
+    folder: src/content/teaching_ja
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Course, name: course, widget: string, required: false }
+      - { label: Year, name: year, widget: string, required: false }
+      - { label: Type, name: type, widget: string, required: false }
+      - { label: Link, name: link, widget: string }
+      - { label: Body, name: body, widget: markdown, required: false }
+
+  - name: teaching_en
+    label: Teaching (EN)
+    folder: src/content/teaching_en
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Course, name: course, widget: string, required: false }
+      - { label: Year, name: year, widget: string, required: false }
+      - { label: Type, name: type, widget: string, required: false }
+      - { label: Link, name: link, widget: string }
+      - { label: Body, name: body, widget: markdown, required: false }

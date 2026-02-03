@@ -1,0 +1,35 @@
+﻿---
+import '../styles/global.css';
+
+const { title, lang, nav, altLang } = Astro.props;
+---
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <header class="nav">
+      <div class="container nav-inner">
+        <a class="brand" href={`/${lang}/`}>Kameoka Lab</a>
+        <nav class="nav-links">
+          {nav.map((item) => (
+            <a href={item.href}>{item.label}</a>
+          ))}
+        </nav>
+        <a class="lang-toggle" href={altLang.href}>{altLang.label}</a>
+      </div>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div>Kameoka Lab / Kyushu University</div>
+        <div>Media Design Department</div>
+      </div>
+    </footer>
+  </body>
+</html>

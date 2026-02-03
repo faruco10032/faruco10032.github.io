@@ -1,0 +1,72 @@
+﻿---
+import Base from '../../layouts/Base.astro';
+import site from '../../data/site.json';
+import researchmap from '../../data/researchmap.json';
+import { getCollection } from 'astro:content';
+
+const news = (await getCollection('news_ja')).sort((a,b)=> b.data.date.valueOf() - a.data.date.valueOf()).slice(0,3);
+const projects = (await getCollection('projects_ja')).slice(0,3);
+
+const nav = [
+  { label: '研究', href: '/ja/research/' },
+  { label: '業績', href: '/ja/publications/' },
+  { label: 'メンバー', href: '/ja/members/' },
+  { label: '助成・活動', href: '/ja/activities/' },
+  { label: '講義資料', href: '/ja/teaching/' },
+  { label: 'アクセス', href: '/ja/access/' },
+  { label: '研究室について', href: '/ja/about/' }
+];
+---
+<Base title="亀岡研究室 | 九州大学" lang="ja" nav={nav} altLang={{ href: '/en/', label: 'EN' }}>
+  <section class="hero container">
+    <div>
+      <h1>触覚と身体感覚のデザインで、体験の質を拡張する。</h1>
+      <p>亀岡研究室は、触覚提示・VR・HCIを軸に、知覚と身体性を再設計する研究を行っています。</p>
+      <div class="hero-card">
+        <div class="badge">所属</div>
+        <div>{site.affiliation.ja}</div>
+        <div style="margin-top:8px;"><span class="badge">Email</span> {site.email}</div>
+      </div>
+    </div>
+    <div class="hero-image" aria-hidden="true"></div>
+  </section>
+
+  <section class="section container">
+    <h2>注目トピック</h2>
+    <div class="grid grid-3">
+      {projects.map((p) => (
+        <article class="card">
+          <h3>{p.data.title}</h3>
+          <div>{p.data.summary}</div>
+          {p.data.keywords && (
+            <div style="margin-top:10px;">
+              {p.data.keywords.map((k) => (<span class="badge">{k}</span>))}
+            </div>
+          )}
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="section container">
+    <h2>最新ニュース</h2>
+    <div class="list">
+      {news.map((n) => (
+        <div class="list-item">
+          <div class="badge">{n.data.date.toISOString().slice(0,10)}</div>
+          <strong>{n.data.title}</strong>
+          {n.data.summary && <div>{n.data.summary}</div>}
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="section container">
+    <h2>研究キーワード</h2>
+    <div>
+      {(researchmap.interests || []).map((i) => (
+        <span class="badge">{i.ja || i.en}</span>
+      ))}
+    </div>
+  </section>
+</Base>
