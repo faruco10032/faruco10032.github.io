@@ -18,7 +18,7 @@ const nav = [
 ];
 ---
 <Base title="亀岡研究室 | 九州大学" lang="ja" nav={nav} altLang={{ href: '/en/', label: 'EN' }}>
-  <section class="hero container">
+  <section class="hero container fade-in">
     <div>
       <h1>触覚と身体感覚のデザインで、体験の質を拡張する。</h1>
       <p>亀岡研究室は、触覚提示・VR・HCIを軸に、知覚と身体性を再設計する研究を行っています。</p>
@@ -28,11 +28,14 @@ const nav = [
         <div style="margin-top:8px;"><span class="badge">Email</span> {site.email}</div>
       </div>
     </div>
-    <div class="hero-image" aria-hidden="true"></div>
+    <div class="hero-visual" aria-hidden="true"></div>
   </section>
 
   <section class="section container">
-    <h2>注目トピック</h2>
+    <div class="section-head">
+      <h2>注目トピック</h2>
+      <span>Highlights</span>
+    </div>
     <div class="grid grid-3">
       {projects.map((p) => (
         <article class="card">
@@ -49,7 +52,10 @@ const nav = [
   </section>
 
   <section class="section container">
-    <h2>最新ニュース</h2>
+    <div class="section-head">
+      <h2>最新ニュース</h2>
+      <span>Updates</span>
+    </div>
     <div class="list">
       {news.map((n) => (
         <div class="list-item">
@@ -62,7 +68,10 @@ const nav = [
   </section>
 
   <section class="section container">
-    <h2>研究キーワード</h2>
+    <div class="section-head">
+      <h2>研究キーワード</h2>
+      <span>Keywords</span>
+    </div>
     <div>
       {(researchmap.interests || []).map((i) => (
         <span class="badge">{i.ja || i.en}</span>

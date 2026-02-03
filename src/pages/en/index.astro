@@ -18,7 +18,7 @@ const nav = [
 ];
 ---
 <Base title="Kameoka Lab | Kyushu University" lang="en" nav={nav} altLang={{ href: '/ja/', label: 'JA' }}>
-  <section class="hero container">
+  <section class="hero container fade-in">
     <div>
       <h1>Designing haptics and body perception for richer experiences.</h1>
       <p>Kameoka Lab explores haptic interfaces, VR, and HCI to redesign how people perceive their bodies in interactive environments.</p>
@@ -28,11 +28,14 @@ const nav = [
         <div style="margin-top:8px;"><span class="badge">Email</span> {site.email}</div>
       </div>
     </div>
-    <div class="hero-image" aria-hidden="true"></div>
+    <div class="hero-visual" aria-hidden="true"></div>
   </section>
 
   <section class="section container">
-    <h2>Highlights</h2>
+    <div class="section-head">
+      <h2>Highlights</h2>
+      <span>Research</span>
+    </div>
     <div class="grid grid-3">
       {projects.map((p) => (
         <article class="card">
@@ -49,7 +52,10 @@ const nav = [
   </section>
 
   <section class="section container">
-    <h2>Latest News</h2>
+    <div class="section-head">
+      <h2>Latest News</h2>
+      <span>Updates</span>
+    </div>
     <div class="list">
       {news.map((n) => (
         <div class="list-item">
@@ -62,7 +68,10 @@ const nav = [
   </section>
 
   <section class="section container">
-    <h2>Keywords</h2>
+    <div class="section-head">
+      <h2>Keywords</h2>
+      <span>Interests</span>
+    </div>
     <div>
       {(researchmap.interests || []).map((i) => (
         <span class="badge">{i.en || i.ja}</span>
