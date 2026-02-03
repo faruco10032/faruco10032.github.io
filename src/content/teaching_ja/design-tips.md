@@ -1,7 +1,7 @@
-﻿---
+---
 title: 触覚インタフェース講義スライド
 course: メディアデザイン特論
-year: 2025
+year: "2025"
 type: Slides
 link: https://example.com
 ---
