@@ -1,7 +1,5 @@
 ---
 lang: en
----
-﻿---
 title: About the Lab
 lead: We study haptics and body perception to enrich human experience in XR and interactive systems.
 ---

@@ -1,7 +1,5 @@
 ---
 lang: en
----
-﻿---
 title: Research
 lead: Core topics and projects
 ---

@@ -1,9 +1,9 @@
-﻿---
+---
 import Base from '../../../layouts/Base.astro';
 import { getCollection } from 'astro:content';
 
 const pages = await getCollection('pages', ({ data }) => data.lang === 'en');
-const page = pages.find((p) => p.slug === 'prospective');
+const page = pages.find((p) => p.slug === 'prospective-en');
 const { Content } = page ? await page.render() : { Content: null };
 const nav = [
   { label: 'Research', href: '/en/research/' },

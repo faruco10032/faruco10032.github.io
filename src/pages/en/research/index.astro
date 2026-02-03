@@ -1,11 +1,11 @@
-﻿---
+---
 import Base from '../../../layouts/Base.astro';
 import researchmap from '../../../data/researchmap.json';
 import { getCollection } from 'astro:content';
 
 const projects = await getCollection('projects', ({ data }) => data.lang === 'en');
 const pages = await getCollection('pages', ({ data }) => data.lang === 'en');
-const page = pages.find((p) => p.slug === 'research');
+const page = pages.find((p) => p.slug === 'research-en');
 const nav = [
   { label: 'Research', href: '/en/research/' },
   { label: 'Publications', href: '/en/publications/' },

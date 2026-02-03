@@ -1,7 +1,5 @@
 ---
 lang: en
----
-﻿---
 title: Grants & Activities
 lead: Research grants and academic activities
 ---
